@@ -1,13 +1,56 @@
-.site-header{
-	background:$yellow3;
+header {
+	position: fixed;
+}
+a,
+a:visited, 
+a:active {
+	color:$navy4;
 
-
+}
+a:hover {
+	color:$navy2;
+	text-decoration:none;
 }
 .wrapper {
 	/* class is used numerous times, may interact poorly */
 }
 
-.nav-collapse {
-	background:$yellow2;
+aside {
+	float:left;
+	width:30%;
 
+	height:400px;
+
+}
+.home {
+	float:right;
+	width:70%;
+
+}
+.jumbotron {
+	position: fixed;
+	top:56px;
+	left:0;
+	z-index: -1;
+	background: url("/img/blog/try.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:top;
+	width:100%;
+	height:400px;
+
+}
+.home,
+aside {
+	background: lighten($blue2,25%);
+}
+
+.jumbo-gradient{
+	@include gradient-vert(rgba(255,255,255,0),lighten($blue2,25%),0%,80%);
+	height:180px;
+	width:100%;
+	margin:0 auto;
+
+	top:250px;
+	
 }

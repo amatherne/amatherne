@@ -1,9 +1,11 @@
+/* =========== Colors =============== */
+
 // "blues" (light to dark)
 
 $blue1:#8C9CBF;
 $blue2:#7A8FBF;
 $blue3:#42547F;
-$blue:#3D475F;
+$blue4:#3D475F;
 $blue5:#152752;
 
 // "yellows"
@@ -36,3 +38,55 @@ $brown1:#65594D;
 $beige:#D5CFA7;
 $greyish:#797066;
 $darkbrown:#3E362F;
+
+/* ============== Fonts ============ */
+
+$font1:'Poiret One', cursive;
+$font2:'Alegreya Sans SC', sans-serif;
+$font3: 'Marck Script', cursive;
+
+/* =============== Mixins =========== */
+
+@mixin gradient($fromColor, $toColor,$start,$end) {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+background: -moz-linear-gradient(left,  $fromColor $start, $toColor $end); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop($start,$fromColor), color-stop($end,$toColor)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  $fromColor $start,$toColor $end); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  $fromColor $start,$toColor $end); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  $fromColor $start,$toColor $end); /* IE10+ */
+background: linear-gradient(to right,  $fromColor $start,$toColor $end); /* W3C */
+}
+
+@mixin gradient-vert($fromColor, $toColor,$start,$end) {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+background: -moz-linear-gradient(top,  $fromColor $start, $toColor $end); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop($start,$fromColor), color-stop($end,$toColor)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  $fromColor $start,$toColor $end); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  $fromColor $start,$toColor $end); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  $fromColor $start,$toColor $end); /* IE10+ */
+background: linear-gradient(to bottom,  $fromColor $start,$toColor $end); /* W3C */
+}
+
+@mixin radius-top-left($radius) {
+	-webkit-border-top-left-radius: $radius;
+	    -moz-border-radius-topleft: $radius;
+			border-top-left-radius: $radius;
+}
+@mixin radius-top-right($radius) {
+	-webkit-border-top-right-radius: $radius;
+	    -moz-border-radius-topright: $radius;
+			border-top-right-radius: $radius;
+}
+@mixin radius-all($radius) {
+	-webkit-border-radius: $radius;
+	   -moz-border-radius: $radius;
+			border-radius: $radius;
+}
+@mixin radius-bottom($radius) {
+	-webkit-border-bottom-right-radius: $radius;
+	 -webkit-border-bottom-left-radius: $radius;
+	    -moz-border-radius-bottomright: $radius;
+		 -moz-border-radius-bottomleft: $radius;
+		    border-bottom-right-radius: $radius;
+			 border-bottom-left-radius: $radius;
+}

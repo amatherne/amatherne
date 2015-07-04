@@ -2,74 +2,101 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    // border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $lavender5;
     min-height: 56px;
+    background:lighten($blue1,5%);
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    width: 100%;
+    margin-bottom:370px;
+    a,
+    a:visited, 
+    a:active {
+    color:$navy3;
+
+    }
+    a:hover {
+        color:$navy5;
+        text-decoration:none;
+    }
 }
 
 .site-title {
-    font-size: 26px;
+    position: absolute;
+    font-size: 22px;
     line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
+    letter-spacing: -2px;
+    margin-left: 10px;
     float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
+    font-family:$font2;
+    transition: all 300ms;
+    span {
+        font-family:$font3;
+        font-size: 30px;
+    }
+    &:hover {
+        margin-top: 1px;
+        margin-left: 4px;
+        font-size: 24px;
+        letter-spacing: -1px;
+        span {
+            font-size: 32px;
+        }
+        
     }
 }
 
 .site-nav {
     float: right;
     line-height: 56px;
+    margin-right:10px;
 
     .menu-icon {
         display: none;
+
     }
 
     .page-link {
-        color: $text-color;
+        color: $navy5;
         line-height: $base-line-height;
+        font-family: $font2;
+        font-weight: 700;
+       
 
         // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
+        // &:not(:last-child) {
+        //     padding-right: 15px;
+        // }
     }
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
+        top: 15px;
+        right: 20px;
+        // background-color: $lavender1;
+        border: 2px solid $navy3;
+        // border-radius: 10px;
         text-align: right;
 
         .menu-icon {
             display: block;
             float: right;
-            width: 36px;
-            height: 26px;
+            width: 65px;
+            height: 11px;
             line-height: 0;
-            padding-top: 10px;
-            text-align: center;
+            padding-top: 11px;
+            padding-right:5px;
+            // text-align: center;
             background:url("/img/icons/arrow.png");
             background-size:contain;
             background-repeat:no-repeat;
-
-        //     > svg {
-        //         width: 18px;
-        //         height: 15px;
-
-        //         path {
-        //             fill: $grey-color-dark;
-        //         }
-        //     }
+            text-align: right;
+            font-family: $font2;
+            color:$navy3;
+            font-weight: 400;
+            background-color:lighten($lavender1,5%);
         }
 
         .trigger {
@@ -80,11 +107,23 @@
         &:hover .trigger {
             display: block;
             padding-bottom: 5px;
+            background-color:lighten($lavender1,5%);
+
         }
 
         .page-link {
             display: block;
-            padding: 5px 10px;
+            padding-right:0px;
+            a,
+            a:visited, 
+            a:active {
+            color:$navy3;
+
+            }
+            a:hover {
+                color:$navy5;
+                background-color:$blue5;
+            }
         }
     }
 }
@@ -95,24 +134,32 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $lavender5;
     padding: $spacing-unit 0;
+        background:lighten($blue1,5%);
 }
 
 .footer-heading {
     font-size: 18px;
+    margin-left: 10px;
     margin-bottom: $spacing-unit / 2;
+    font-family:$font2;
+    span {
+        font-family:$font3;
+        font-size: 20px;
+    }
 }
 
 .contact-list,
 .social-media-list {
+
     list-style: none;
     margin-left: 0;
 }
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $blue5;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -165,7 +212,9 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+
+    padding-top: 376px;
+
 }
 
 .page-heading {
@@ -178,17 +227,25 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        float:left;
+        margin-left:1%;
+        width:32%;
+        height:180px;
+        background:lighten($navy1,10%);
+        border: 1px $navy2 solid;
+        @include radius-all(4px);
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $blue5;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 17px;
+    padding:4px;
 }
 
 
