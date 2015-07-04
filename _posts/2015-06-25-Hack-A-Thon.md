@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blank"
-date:   2015-07-01 09:48:43
+date:   2015-06-25 09:48:43
 ---
 1. [Second Favorite](https://typecast.com/t4PZVTP6HW/fonts1)
 2. [2nd attempt](https://typecast.com/t4PZVTP6HW/fonts-2)

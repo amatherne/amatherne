@@ -15,16 +15,16 @@ a:hover {
 	/* class is used numerous times, may interact poorly */
 }
 
-aside {
-	float:left;
-	width:30%;
 
-	height:400px;
-
-}
 .home {
 	float:right;
-	width:70%;
+	width:55%;
+	padding:0 10% 0 5%;
+	@include media-query($on-palm){
+		width:90%;
+		padding:0 5% 0 5%;
+
+	}
 
 }
 .jumbotron {
@@ -40,17 +40,158 @@ aside {
 	height:400px;
 
 }
+.welcome {
+	position: relative;
+	width:90%;
+	margin:315px 8% 0 2%;
+	text-align:left;
+	font-family:$font1;
+	font-size:50px;
+	color:$blue5;
+	text-shadow:
+		0px .01em 0px $blue1, 
+	    0 .015em 0 $blue1, 
+	    0 .02em 0 $blue1, 
+	    0 .028em 0 $blue1, 
+	    0 .035em 0 $blue1, 
+	    0 .04em 0 $blue1, 
+	    0 .045em 0 $blue2, 
+	    0 .055em 0 $blue2,
+	    0 .06em 0 $blue2, 
+	    0 .065em 0 $blue3, 
+	    0 .07em 0 $blue3, 
+	    0 .08em 0 $blue4, 
+	    0 .085em 0 $blue4,
+	    0 .09em 0 $blue4,
+		0 .095em 0 $blue5, 
+    	0 .105em 0 $blue5,
+    	0 .06em .06em rgba(104, 104, 92, 0.15), 
+    	.07em .105em .04em rgba(0, 0, 0, 0.15), 
+    	-.02em .09em .05em rgba(104, 104, 92, 0.25), 
+    	-.03em .07em .065em rgba(104, 104, 92, 0.1), 
+    	-.075em .08em .09em rgba(104, 104, 92, 0.06), 
+    	-.09em .06em .195em rgba(104, 104, 92, 0.095);
+    	animation: rotateInDownLeft 2s 600ms backwards;
+    		@include media-query($on-palm){
+    		animation:none;
+    		font-size: 30px;
+    		margin-top:250px;
+    	}
+
+}
+@keyframes rotateInDownLeft {
+  0% {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1;
+  }
+}
 .home,
 aside {
 	background: lighten($blue2,25%);
-}
+	margin-top:530px;
 
+}
+aside {
+	float:left;
+	width:15%;
+	padding:0 5% 0 10%;
+
+	height:400px;
+	@include media-query($on-palm){
+		width:90%;
+		padding:0 5%; 
+		padding-top:0;
+		margin-top: 0;
+	}
+
+}
 .jumbo-gradient{
-	@include gradient-vert(rgba(255,255,255,0),lighten($blue2,25%),0%,80%);
-	height:180px;
+	@include gradient-vert(rgba(255,255,255,0),lighten($blue2,25%),0%,100%);
+	height:250px;
 	width:100%;
-	margin:0 auto;
-
-	top:250px;
-	
+	position: relative;
+	top:530px;
+	h3 {
+	width:60%;
+	margin:0 20%;
+	text-align:center;
+	font-family:$font1;
+	font-size:50px;
+	color:$blue5;
+	text-shadow:
+		0px .01em 0px $blue1, 
+	    0 .015em 0 $blue1, 
+	    0 .02em 0 $blue1, 
+	    0 .028em 0 $blue1, 
+	    0 .035em 0 $blue1, 
+	    0 .04em 0 $blue1, 
+	    0 .045em 0 $blue2, 
+	    0 .055em 0 $blue2,
+	    0 .06em 0 $blue2, 
+	    0 .065em 0 $blue3, 
+	    0 .07em 0 $blue3, 
+	    0 .08em 0 $blue4, 
+	    0 .085em 0 $blue4,
+	    0 .09em 0 $blue4,
+		0 .095em 0 $blue5, 
+    	0 .105em 0 $blue5,
+    	0 .06em .06em rgba(104, 104, 92, 0.15), 
+    	.07em .105em .04em rgba(0, 0, 0, 0.15), 
+    	-.02em .09em .05em rgba(104, 104, 92, 0.25), 
+    	-.03em .07em .065em rgba(104, 104, 92, 0.1), 
+    	-.075em .08em .09em rgba(104, 104, 92, 0.06), 
+    	-.09em .06em .195em rgba(104, 104, 92, 0.095);
+    	animation: bounceInDown 3s 1 3.2s backwards;
+    	@include media-query($on-palm){
+    		animation:none;
+    		font-size: 30px;
+    	}
+	}
 }
+@keyframes bounceInDown {
+  0%, 60%, 75%, 90%, 100% {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, 25px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, 5px, 0);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.rss-subscribe {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
