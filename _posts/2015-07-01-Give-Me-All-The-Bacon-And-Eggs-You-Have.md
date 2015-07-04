@@ -3,10 +3,10 @@ layout: post
 title:  "Just Give Me All The Bacon And Eggs You Have"
 date:   2015-07-01 05:13:43
 ---
-
-#What I Said
-
 ![Ron Swanson all beefed up](/img/blog/chesthair.jpg "Why cant i think of a good pun for this")
+
+##What I Said...
+
 
 Not just a poignant quote from a Tv show we reference in class; often. It's a specific feeling you can experience at different points in your life. You feel it when you may have a lot on your plate for the first time in a while. Or ever. And the real decisions are there. Maybe even the real consequences of failures.
 
