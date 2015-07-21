@@ -2,8 +2,9 @@
 	.site-header {
 		height:20em;
 		.site-title {
-			font-size: 70px;
-			margin-top: 2.5em;
+			font-size: 100px;
+			margin-top: 1.6em;
+			line-height: 0.7em;
 			margin-left:0.3em;
 		}
 		.logo-top{
@@ -20,6 +21,9 @@
 				display: inline-block;
 			}	
 		}
+		a {
+			font-size: 21px;
+		}
 	}
 	.mini-about {
 		margin:15em 10%;
@@ -28,7 +32,7 @@
 			float: left;
 			width: 25%;
 			max-width: 190px;
-			margin:5.7em 2.5% 5em 2.5%;
+			margin:5em 2.5% 7em 2.5%;
 		}
 		a {
 			float: right;

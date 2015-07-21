@@ -1,23 +1,35 @@
 @media screen and (min-width:900px){
+	.site-header {
+		.site-title{
+			font-size: 120px;
+			margin-top: 1em;
+			line-height: 0.75em;
+			margin-left:0.3em;
+		}
+		a {
+			font-size: 25px;
+		}
+		}
 	.mini-about {
-		width:40%;
+		width:80%;
 
 		img {
 			display: block;
 			float: left;
-			width: 25%;
+			width: 15%;
 			max-width: 150px;
-			margin:5.7em 2% 5em 2%;
+			margin:1em 2% 10em 2em;
 		}
 		a {
 			float: right;
-			width: 55%;
+			width: 75%;
 			margin:0 2% 0.5em 2%;
 			font-size: 25px;
 		}
 		p {
 			float: right;
-			width: 55%;
+			width: 75%;
+			max-width: 557px;
 			margin:0 2% 9em 2%;
 		}
 		span {
