@@ -2,6 +2,7 @@
 layout: post
 title:  "Christopher Nolan"
 date:   2015-06-11 09:48:43
+img: /img/blog/beachpatrol.png
 ---
 
 ##I dont want to make this about Inception
