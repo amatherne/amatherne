@@ -24,15 +24,10 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-            <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
+         {{ post.excerpt}}
 
         <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"><span>Continue</span></a>
-
+        <div class="gradient"></div>
       </li>
     {% endfor %}
   </ul>
