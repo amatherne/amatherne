@@ -1,7 +1,7 @@
 $global:0.625;
-// $globalfont:"john-doe";
+$globalfont:"john-doe";
 // $globalfont:"american-typewriter";
-$globalfont:serif;
+// $globalfont:serif;
 $displayfont-2:"aw-conqueror-inline";
 
 
@@ -71,9 +71,12 @@ body,
 
 nav {
   background:$stripe2;
-  float:right;
+
   position: absolute;
   top:20em;
+  @media screen and (min-width:630px){
+    left:3em;
+  }
   ul {
     text-align:left;
   }
@@ -82,9 +85,11 @@ nav {
     margin:0.5em;
   }
 }
+
 .menu li:hover {
   background:$stripe3;
   color:$stripe2;
+
   a:hover{
   color:$stripe2;
 }

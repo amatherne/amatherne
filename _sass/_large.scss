@@ -39,7 +39,7 @@
 	}
 	.break {
 	    position: relative;
-	    height: 20px;
+	    height: 50px;
 	    width: 100%;
 	    overflow: hidden;
 	    background-color: $maincolor;
@@ -67,6 +67,9 @@
 	.home {
 
 		margin: 1em 5% 1em 5%;
+		h1 {
+			font-size: 110px;
+		}
 	}
 	
 

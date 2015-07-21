@@ -1,6 +1,5 @@
 ---
 layout: default
-paginate: 5
 ---
 <div class="mini-about">
             <img class="logo" src="/img/blog/face.png">
@@ -19,12 +18,20 @@ paginate: 5
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li class="open">
+      <li class="post-box">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+            <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+        <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"><span>Continue</span></a>
 
       </li>
     {% endfor %}
