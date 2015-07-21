@@ -1,0 +1,63 @@
+@media screen and (min-width:550px){
+	.site-header {
+		height:20em;
+		.site-title {
+			font-size: 70px;
+			margin-top: 2.5em;
+			margin-left:0.3em;
+		}
+		.logo-top{
+			display: none;
+		}
+		.menu-icon {
+			margin-top: 6.68em;
+		}
+		.menu {
+			z-index: 5000;
+			display: block;
+			clear: both;
+			li {
+				display: inline-block;
+			}	
+		}
+	}
+	.mini-about {
+		margin:15em 10%;
+		img {
+			display: block;
+			float: left;
+			width: 25%;
+			max-width: 190px;
+			margin:5.7em 2.5% 5em 2.5%;
+		}
+		a {
+			float: right;
+			width: 60%;
+			margin:0 7% 0.5em 3%;
+			font-size: 25px;
+		}
+		p {
+			float: right;
+			width: 60%;
+			margin:0 5% 9em 5%;
+		}
+		span {
+			font-size: 40px;
+		}
+
+	}
+	.home {
+		margin: 2em 10% 0 0;
+	}
+	.open {
+		max-width: 641px;
+	}
+	.closed {
+		width: 40%;
+		margin:1em 0.5% 1em 0.5%;
+		height: 178px;
+		overflow: hidden;
+		float: left;
+	}
+
+}

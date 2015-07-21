@@ -1,24 +1,31 @@
 ---
 layout: default
+paginator.per_page: 5
 ---
-<div class="jumbotron">
-<!--   <div class="spot-button">
-    <h3>Spotify</h3>
-    <iframe src="https://embed.spotify.com/?uri=spotify:user:pnkdrmmr:playlist:280A1Y0cgJ2QsaTTZhG7Ei" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
-  </div> -->
+<div class="mini-about">
+            <img class="logo" src="/img/blog/face.png">
+            <p><span>Hi </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptas deleniti eveniet tempore rerum incidunt consectetur atque, veniam velit explicabo quas fuga neque corporis sapiente autem. Quas voluptate, expedita at.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
 </div>
+<div class="break"></div>
 <div class="home">
   
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Writings</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
+      <li class="open">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+
       </li>
     {% endfor %}
   </ul>
@@ -26,7 +33,4 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
-<aside>
-  <h2>Things I'm All Into</h2>
-  <h3>Music</h3>
-</aside>
+<div class="break"></div>

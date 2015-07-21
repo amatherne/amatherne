@@ -1,0 +1,177 @@
+$global:0.625;
+// $globalfont:"john-doe";
+$globalfont:"american-typewriter";
+$displayfont-2:"aw-conqueror-inline";
+
+
+/* ========================= Colors ============================ */
+
+$maincolor:#78c4b4;
+$secondary:#efe9c8;
+$stripe2:#ffebb8;
+$stripe3:#f39f99;
+$fontcolor:#5d2f1c;
+// $linkcolor:#c6562f;
+$linkcolor:darken(#92688e,10%);
+$bordercolor:#92688e;
+
+
+
+/* ========================== Font ============================= */
+@mixin font($em){
+    font-size: ($em*$global) + px;
+    font-size: ($em) + em;
+}
+@font-face {
+    font-family: 'american-typewriter';
+    src: url('/fonts/american-typewriter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ========================== Border Box ======================= */
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+     -moz-box-sizing: $box-model; // Firefox <= 19
+          box-sizing: $box-model;
+}
+body,
+*,
+*:after,
+*:before {
+  @include box-sizing(border-box);
+  &:focus {
+    outline-color: transparent;
+    outline-style: none;
+  }
+}
+/* ==================== Drop Menu ============================== */
+.slicknav_menu {
+  display:none;
+}
+@media screen and (max-width: 550px) {
+  .js #menu {
+    display:none;
+    top: 10em;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    }
+  
+  
+  .slicknav_menu {
+    display:block;
+  }
+}
+
+nav {
+  background:$stripe2;
+  float:right;
+  position: absolute;
+  top:20em;
+  ul {
+    text-align:center;
+  }
+  ul a {
+  // float:left;
+    display:inline-block;
+    margin:0.5em;
+  }
+}
+.menu li:hover {
+  background:$stripe3;
+  color:$stripe2;
+  a:hover{
+  color:$stripe2;
+}
+  
+}
+// nav ul li a {
+//   display:block;
+//   padding:15px 25px;
+//   color:#444;
+// }
+nav ul li ul {
+  position:absolute;
+  width:110px;
+  background:$stripe2;
+}
+nav ul li ul li {
+  width:110px;
+}
+// nav ul li ul li a {
+//   display:block;
+//   padding:15px 10px;
+//   color:$linkcolor;
+// }
+// a:hover {
+//   background:$stripe3;
+//     a {
+//       display: inline-block;
+//       padding-top:1em;
+//       padding-bottom:1em;
+//       padding-left:1em;
+//       &:hover {
+//       background:$stripe3;
+//       color:$stripe2;
+//       }
+//     }
+// }
+// nav ul li ul.fallback {display:none;}
+// nav ul li:hover ul.fallback {display:block;}
+
+
+
+/* ==================== Border Radius ========================== */
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+
+// Single side border-radius
+
+// Top
+@mixin border-top-radius($radius) {
+  -webkit-border-top-right-radius: $radius;
+  border-top-right-radius: $radius;
+   -webkit-border-top-left-radius: $radius;
+   border-top-left-radius: $radius;
+   background-clip: padding-box;
+}
+
+// Right
+@mixin border-right-radius($radius) {
+  -webkit-border-bottom-right-radius: $radius;
+  border-bottom-right-radius: $radius;
+     -webkit-border-top-right-radius: $radius;
+     border-top-right-radius: $radius;
+     background-clip: padding-box;
+}
+
+// Bottom
+@mixin border-bottom-radius($radius) {
+  -webkit-border-bottom-right-radius: $radius;
+  border-bottom-right-radius: $radius;
+   -webkit-border-bottom-left-radius: $radius;
+   border-bottom-left-radius: $radius;
+   background-clip: padding-box;
+}
+
+// Left
+@mixin border-left-radius($radius) {
+  -webkit-border-bottom-left-radius: $radius;
+  border-bottom-left-radius: $radius;
+     -webkit-border-top-left-radius: $radius;
+     border-top-left-radius: $radius;
+     background-clip: padding-box;
+}
+
+// Bottom Right
+@mixin border-bottom-right-radius($radius) {
+  -webkit-border-bottom-right-radius: $radius;
+  border-bottom-right-radius: $radius;
+   background-clip: padding-box;
+}
