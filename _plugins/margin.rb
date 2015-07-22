@@ -1,7 +1,7 @@
 module Jekyll
   class RenderMarginNoteTag < Liquid::Tag
 
-require "shellwords"
+	require "shellwords"
 
     def initialize(tag_name, text, tokens)
       super
