@@ -6,7 +6,10 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: matherne_austin
 github_username:  amatherne
-
+gems: 
+ - margin
+ - margin_figure
+ - sidenote
 
 paginate_path: "/blog/page:num/"
 
