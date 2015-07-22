@@ -9,6 +9,7 @@ date:   2015-07-01 05:13:43
 
 
 Not just a poignant quote from a Tv show we reference in class; often. It's a specific feeling you can experience at different points in your life. You feel it when you may have a lot on your plate for the first time in a while. Or ever. And the real decisions are there. Maybe even the real consequences of failures.
+<!--excerpt break-->
 
 The juggle that is being in a semi-working band, a relationship, and first time full time student is one i've never really ever experienced. Add in the opposite sleep schedule conflicts i've been dealing with and you've definitely got a good show to watch. But I'm trying to choose to come at this from a different from normal path. 
 

@@ -13,24 +13,22 @@ layout: default
 </div>
 <div class="break"></div>
 <div class="home">
-  
+  <div class="fade"></div>
+
   <h1 class="page-heading">Writings</h1>
-
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:5 %}
+    <div class="break-mini"></div>
       <li class="post-box">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><!-- <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"><span>Continue</span></a> -->
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-         {{ post.excerpt}}
-
-        <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"><span>Continue</span></a>
-        <div class="gradient"></div>
+         <p>{{ post.excerpt }}</p>
       </li>
     {% endfor %}
   </ul>
+
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

@@ -76,12 +76,59 @@ body {
         transform: rotate(-45deg);
     }
 }
+.break-mini {
+    position: relative;
+    height: 4px;
+    width: 100%;
+    overflow: hidden;
+    background-color: $maincolor;
+    &:nth-of-type(5),
+    &:nth-of-type(6){
+        display: none;
+    }
+    &:before { 
+        content: '';
+        position: absolute;
+        left: 20%;
+        width: 100%; 
+        height: 400%; 
+        background-color: $stripe3;
+        top: 0;
+        transform: rotate(-45deg);
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        top:0;
+        left: 10%;
+        width: 100%; 
+        height: 250%;
+        background: #ffebb8;
+        transform: rotate(-45deg);
+    }
+}
 .home {
-    margin: 1em 10% 1em 0%;
+    margin: 0em 0% 1em 0%;
+    position: relative;
+    .fade {
+
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+
+        @include gradient-vert(rgba(255,255,255,0), $secondary,0%,100%);
+         // background:blue;
+         height:120px;
+         z-index: -10000;
+    }
     h1 {
         font-family: $displayfont-2;
-        font-size: 60px;
-        margin: 2.3em 5% 1.5em 5%;
+        font-size: 50px;
+        margin: 0em 5% 0.7em 5%;
+        padding-top:1em;
+        z-index: 1000;
+
     }
     span {
         font-size: 14px;
@@ -94,45 +141,109 @@ body {
         font-size: 30px;
         line-height: 1em;
         width: 100%;
-        height:760px;
-        // border: 2px solid $fontcolor;
-        // border-left:hidden;
-        // padding:5%;
         @include border-right-radius(5px);
-    }
-    .post-box {
-        height:380px;
-        width: 90%;
-        margin: 1em 5% 1em 5%;
-        position: relative;
-        overflow: hidden;
+        background:$secondary;
 
     }
-    .gradient {
-        position: absolute;
-        bottom:0em;
-        width:100%;
-        // background:blue;
-        height:230px;
-        @include gradient-vert(rgba(255,255,255,0), rgba(255,255,255,1),0%,80%);
+    .post-box {
+        // min-height: 330px;
+        width: 90%;
+        margin: 1em 5% 1em 5%;
+        overflow:hidden;
+
+        // border: 1px solid $bordercolor;
+        padding:0.5em;
+        position: relative;
+
+        &:hover {
+            background:$green;
+            @include border-radius(0.5em);
+            // @include gradient;
+            position: relative;
+            &:after {
+                content: '';
+                position: absolute;
+
+                top:0;
+                left: -100%;
+                width: 300%; 
+                height: 10%;
+                background: $yellow;
+                transform: rotate(-45deg);
+            }
+            &:before { 
+                content: '';
+                position: absolute;
+
+                left: -70%;
+                width: 200%; 
+                height: 40%; 
+                background-color: $salmon;
+                top: 0;
+                transform: rotate(-45deg);
+            }
+
+        }
+        .post-meta {
+            float: left;
+            margin-bottom: 0.7em;
+            z-index: 3;
+            position: relative;
+
+
+        }
+        h2 {
+            clear: both;
+            font-size: 30px;
+            z-index: 3;
+            position: relative;
+
+        }
+        p {
+            position: relative;
+            z-index: 3;
+        }
+        &:nth-of-type(3),
+        &:nth-of-type(4) { 
+            .post-meta {
+                margin-bottom: 0;
+            }
+            // height: 100px;
+            h2 {
+                font-size: 16px;
+                clear:both;
+
+            }
+            p, .read-more {
+                display: none;
+            }
+        }
+        &:nth-of-type(5) {
+            display: none;
+        }
+
     }
+
 
 
     .read-more {
+        float: right;
         color:$fontcolor;
         border:2px solid $bordercolor;
-        position: absolute;
+        position: relative;
+        display: block;
         height: 30px;
         width: 120px;
-        bottom:0.5em;
-        right:0.5em;
+        margin-bottom: 0.7em;
+        // bottom:0.5em;
+        // right:0.5em;
         z-index: 5000;
         overflow: hidden;
         background-color: $maincolor;
         span {
             z-index: 1000;
             position: absolute;
-            bottom:-0.6em;
+            bottom:-0.2em;
             left: 0.2em;
             font-size: 20px;
         }
@@ -141,7 +252,7 @@ body {
             position: absolute;
             left: 32%;
             width: 100%; 
-            height: 150%; 
+            height: 350%; 
             background-color: $stripe3;
             top: 0;
             transform: rotate(-45deg);
@@ -150,9 +261,9 @@ body {
             content: '';
             position: absolute;
             top:0;
-            left: 15%;
+            left: 0%;
             width: 100%; 
-            height: 30%;
+            height: 100%;
             background: $stripe2;
             transform: rotate(-45deg);
         }
@@ -172,6 +283,7 @@ body {
 
 footer {
     background:$maincolor;
+    clear:both;
     margin-top:2em;
     padding-left:5%;
     padding-right:5%;

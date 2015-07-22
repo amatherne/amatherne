@@ -4,10 +4,10 @@
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "reset";
-@import "partials";
-@import "global";
-@import "medium";
-@import "large";
-@import "dropmenu";
+@import "1-reset";
+@import "2-partials";
+@import "3-global";
+@import "4-medium";
+@import "5-large";
+@import "6-dropmenu";
 

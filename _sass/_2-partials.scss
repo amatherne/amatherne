@@ -8,7 +8,7 @@ $displayfont-2:"aw-conqueror-inline";
 /* ========================= Colors ============================ */
 
 $maincolor:#78c4b4;
-$secondary:#efe9c8;
+$secondary:lighten(#efe9c8,7%);
 $stripe2:#ffebb8;
 $stripe3:#f39f99;
 $fontcolor:#5d2f1c;
@@ -16,7 +16,9 @@ $fontcolor:#5d2f1c;
 $linkcolor:darken(#92688e,10%);
 $bordercolor:#92688e;
 
-
+$green:rgba(120,196,180,0.5);
+$yellow:rgba(255,235,184,0.5);
+$salmon:rgba(243,159,153,0.5);
 
 /* ========================== Font ============================= */
 @mixin font($em){
@@ -110,6 +112,22 @@ nav ul li ul li {
   }
 }
 
+/* ==================== Animations ============================= */
+
+@keyframes rotateIn {
+  0% {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform-origin: center;
+    transform: none;
+    opacity: 1;
+  }
+}
+
 /* ==================== Border Radius ========================== */
 
 @mixin border-radius($radius) {
@@ -174,3 +192,29 @@ background: -o-linear-gradient(top,  $fromColor $start,$toColor $end); /* Opera 
 background: -ms-linear-gradient(top,  $fromColor $start,$toColor $end); /* IE10+ */
 background: linear-gradient(to bottom,  $fromColor $start,$toColor $end); /* W3C */
 }
+
+// Diagonal 3 color
+@mixin gradient{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efe9c8+0,efe9c8+37,efe9c8+100&amp;1+0,0.4+47,0+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(239,233,200,1) 0%, rgba(239,233,200,0.53) 37%, rgba(239,233,200,0.4) 47%, rgba(239,233,200,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(239,233,200,1)), color-stop(37%,rgba(239,233,200,0.53)), color-stop(47%,rgba(239,233,200,0.4)), color-stop(100%,rgba(239,233,200,0))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(239,233,200,1) 0%,rgba(239,233,200,0.53) 37%,rgba(239,233,200,0.4) 47%,rgba(239,233,200,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(239,233,200,1) 0%,rgba(239,233,200,0.53) 37%,rgba(239,233,200,0.4) 47%,rgba(239,233,200,0) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(239,233,200,1) 0%,rgba(239,233,200,0.53) 37%,rgba(239,233,200,0.4) 47%,rgba(239,233,200,0) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(239,233,200,1) 0%,rgba(239,233,200,0.53) 37%,rgba(239,233,200,0.4) 47%,rgba(239,233,200,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efe9c8', endColorstr='#00efe9c8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
