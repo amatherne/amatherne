@@ -20,7 +20,7 @@ I've been playing music with Marcos Gossi for almost 6 years. He's been a dynami
 
 ##Try doing 'blank'..... just for funsies.
 
-It can be about a new chorus, a "VK Stop" <!-- {% sidenote 1 'The VK Stop is a catchall phrase we jokingly made up for the accents and pauses we enjoy using frequently in Vetter Kids.'%} -->, a drum fill, a vocal line, or anything else he comes up with. His word choice makes it feel just like that: for funsies. It takes the pressure and anxiety away and lets new ideas flow freely. It lets us make suggestions to each other and experiment without hurting feelings. And some of my favorite sections of songs have come from this phrase. 
+It can be about a new chorus, a "VK Stop", a drum fill, a vocal line, or anything else he comes up with. His word choice makes it feel just like that: for funsies. It takes the pressure and anxiety away and lets new ideas flow freely. It lets us make suggestions to each other and experiment without hurting feelings. And some of my favorite sections of songs have come from this phrase. 
 
 ##Bringing this into Design
 

@@ -1,4 +1,4 @@
-Here's a list of tags to style posts:
+<!-- Here's a list of tags to style posts:
 
 Change '#' to whatever number it will be
 {% sidenote # 'This is a sidenote and *contains a superscript*'%}
@@ -21,4 +21,4 @@ use to disable on mobile
         }
     }
 
-</style>
+</style> -->
