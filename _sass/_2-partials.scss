@@ -193,6 +193,16 @@ background: -ms-linear-gradient(top,  $fromColor $start,$toColor $end); /* IE10+
 background: linear-gradient(to bottom,  $fromColor $start,$toColor $end); /* W3C */
 }
 
+@mixin gradient-hori($fromColor, $toColor,$start,$end) {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+background: -moz-linear-gradient(left,  $fromColor $start, $toColor $end); /* FF3.6+ */
+background: -webkit-gradient(linear, left, right, color-stop($start,$fromColor), color-stop($end,$toColor)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  $fromColor $start,$toColor $end); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  $fromColor $start,$toColor $end); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  $fromColor $start,$toColor $end); /* IE10+ */
+background: linear-gradient(to right,  $fromColor $start,$toColor $end); /* W3C */
+}
+
 // Diagonal 3 color
 @mixin gradient{
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efe9c8+0,efe9c8+37,efe9c8+100&amp;1+0,0.4+47,0+100 */

@@ -19,31 +19,38 @@
                 <li>
                     <a href="#">Writings</a>
                     <ul>
-                        <li><a href="#">Blog</a></li>
+                        <li>
+                          {% for post in site.posts limit:1 %}
+                          <a href="{{ post.url | prepend: site.baseurl }}">Blog</a>
+                          {% endfor %}
+                        </li>
                         <li><a href="#">Tour Journal</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">Social</a>
                     <ul>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">GitHub</a></li>
+                        <li><a href="https://twitter.com/matherne_austin">Twitter</a></li>
+                        <li><a href="https://instagram.com/pnkdrmmr/">Instagram</a></li>
+                        <li><a href="https://github.com/amatherne">GitHub</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">Sounds</a>
                     <ul>
-                        <li><a href="#">Last.fm</a></li>
+                        <li><a href="http://www.last.fm/user/pnkdrmmr">Last.fm</a></li>
                         <li><a href="#">Spotify Playlist</a></li>
                         <li><a href="#">Podcasts</a></li>
-                        <li><a href="#">Vetter Kids</a></li>
+                        <li><a href="https://open.spotify.com/artist/3scXWkQcshOStB5qKXq1w2">Vetter Kids</a></li>
                     </ul>
                 </li>
-                <li><a href="#">About</a></li>
+                <li><a href="/about">About</a></li>
               </ul>
     </nav>
 
   </div>
 
 </header>
+
+
+

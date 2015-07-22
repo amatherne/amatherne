@@ -8,7 +8,6 @@ body {
         font-family: $displayfont-2, serif;
     }
 }
-
 .site-header {
     background: $maincolor;
     height:10em;
@@ -39,6 +38,111 @@ body {
 
 
 }
+
+
+
+.post {
+    margin:1em auto;
+    h1 {
+        clear:both;
+        font-size: 30px;
+        width: 90%;
+        margin:1em 5%;
+        line-height: 0.7em;
+    }
+    .post-content {
+        p {
+            font-size: 15px;
+            width:80%;
+            margin:1em 10%;
+        }
+        h2 {
+            margin: 1em 10%;
+            font-size: 22px;
+        }
+    }
+    .post-meta {
+        font-size: 12px;
+        margin-left:10%;
+        margin-bottom: -0.5em;
+    }
+    .clearfix {
+        a{
+        font-size: 12px;
+        margin: 2em 5%;
+        width:39%;
+        display: inline-block;
+        }
+        .prev {
+            float: left;
+        }
+        .next {
+            float: right;
+        }
+    }
+    .codepen-input {
+        width:75%;
+        margin:1em 12.5%;
+    }
+    img {
+        max-width: 85%;
+        margin:2em 7.5%;
+    }
+    pre,
+    code {
+        font-size: 15px;
+        // border: 1px solid $stripe3;
+        // border-radius: 3px;
+        // background-color: #eef;
+        max-width: 80%;
+        margin:0em 5%;
+        word-wrap: normal;
+    }
+
+    // code {
+    //     padding: 1px 2px;
+    // }
+
+    // pre {
+    //     padding: 8px 2px;
+
+    //     > code {
+    //         border: 0;
+    //         padding-right: 5%;
+    //         padding-left: 5%;
+    //     }
+    // }
+
+
+
+
+}
+.archive {
+    clear:both;
+    margin:2em 5%;
+    .archive-box {
+        display: block;
+        margin:0.7em 2em;
+    }
+    h2 {
+        font-size: 20px;
+        margin:1em;
+    }
+    a {
+        font-size: 12px;
+        margin:0.2em;
+        display: block;
+
+    }
+    span{
+        font-size: 11px;
+
+        margin:0.2em;
+    }
+}
+
+
+
 .mini-about {
     margin:10em 5% 10em 5%;
     img {

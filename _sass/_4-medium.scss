@@ -11,13 +11,15 @@
 			display: none;
 		}
 		.menu-icon {
-			margin-top: 6.68em;
+			// margin-top: 6.68em;
 		}
 		.menu {
 			z-index: 5000;
 			display: block;
 			clear: both;
 			width: 100%;
+
+
 			li {
 				display: inline-block;
 			}	
@@ -27,6 +29,32 @@
 	  			font-size: 21px;
 			}
   		}
+	}
+	.post {
+		margin: 3em 5%;
+		// width:60%;
+
+	}
+	@media screen and (min-width:800px){
+		.post {
+
+			width: 60%;
+			margin:5em 2%;
+
+			display: inline-block;
+			float: right;
+		}
+		.archive {
+			position: absolute;
+			top:27em;
+			width: 30%;
+			z-index: -100;
+			margin:0em 2%;
+			display: inline-block;
+			float: left;
+			border-right: 1px solid $bordercolor;
+			@include gradient-hori(rgba(255,255,255,0), $secondary,0%,100%);
+		}
 	}
 	.mini-about {
 		margin:15em 10%;
