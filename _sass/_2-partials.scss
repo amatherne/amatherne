@@ -59,7 +59,7 @@ body,
 @media screen and (max-width: 550px) {
   .js #menu {
     display:none;
-    top: 10em;
+    top: 8.5em;
     position: absolute;
     width: 100%;
     margin: 0;
@@ -75,9 +75,9 @@ nav {
   background:$stripe2;
 
   position: absolute;
-  top:20em;
+  top:15.7em;
   @media screen and (min-width:630px){
-    left:3em;
+    left:2.4em;
   }
   ul {
     text-align:left;
