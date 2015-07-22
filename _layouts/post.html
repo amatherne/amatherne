@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
+<div class="archive" id="primary_nav_wrap">
+    <h2>Blog Archive</h2>
+    <ul class="achive-nav">
+      {% for post in site.posts limit:7 %}
+        <li class="archive-box current_menu-item">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+</div>
 <div class="post">
 	
   <header class="post-header">
@@ -27,15 +37,5 @@ layout: default
     <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a> 
   {% endif %} 
 </div>
-</div>
-<div class="archive">
-    <h2>Blog Archive</h2>
-    <ul class="achive-nav">
-      {% for post in site.posts limit:7 %}
-        <li class="archive-box">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
 </div>
 

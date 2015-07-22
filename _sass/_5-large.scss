@@ -45,10 +45,9 @@
 		float: right;
 	}
 	.archive {
-		position: absolute;
-		top:27em;
-		left:7%;
-		width: 28%;
+		width: 30%;
+			z-index: -100;
+			margin:7em 2% 7em 5%;
 		display: inline-block;
 		float: left;
 		border-right: 1px solid $bordercolor;

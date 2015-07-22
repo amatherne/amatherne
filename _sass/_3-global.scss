@@ -55,6 +55,7 @@ body {
             font-size: 15px;
             width:80%;
             margin:1em 10%;
+            line-height: 2em;
         }
         h2 {
             margin: 1em 10%;
@@ -120,6 +121,7 @@ body {
 .archive {
     clear:both;
     margin:2em 5%;
+    display: none;
     .archive-box {
         display: block;
         margin:0.7em 2em;
