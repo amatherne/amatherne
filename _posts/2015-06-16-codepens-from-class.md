@@ -21,8 +21,7 @@ date:   2015-06-16 09:48:43
 <div class="codepen-input">
 <p data-height="268" data-theme-id="0" data-slug-hash="oXeMRo" data-default-tab="result" data-user="Pnkdrmmr" class='codepen'>See the Pen <a href='http://codepen.io/Pnkdrmmr/pen/oXeMRo/'>oXeMRo</a> by Austin Matherne (<a href='http://codepen.io/Pnkdrmmr'>@Pnkdrmmr</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-<div class="codepen-input">
- </div>   
+ </div> 
 ##4.##
 <div class="codepen-input">
 <p data-height="268" data-theme-id="0" data-slug-hash="pJrOJj" data-default-tab="result" data-user="Pnkdrmmr" class='codepen'>See the Pen <a href='http://codepen.io/Pnkdrmmr/pen/pJrOJj/'>pJrOJj</a> by Austin Matherne (<a href='http://codepen.io/Pnkdrmmr'>@Pnkdrmmr</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
