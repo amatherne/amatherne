@@ -9,11 +9,13 @@ Our class was tasked with making a table of contents of what our Style Guides wi
 #Project Name
 
 ##Client Background/History
+
 - What they do.
 - Why they do it.
 - Accomplishments of Client
 
 ##Research
+
 - SWOT Analysis
 - On-Location photography and style analysis (if possible)
 - First Landing Walkthrough
@@ -22,10 +24,12 @@ Our class was tasked with making a table of contents of what our Style Guides wi
         * Is each step necissary?
     
 ##User Stories
+
 - What do the users actually do on the site.
 - Include as many stories from different types of users
 
 ##Evaluate Findings
+
 - State Findings of Research
     + Problems Identified
     + Immediate / Long Term Goals
@@ -43,6 +47,7 @@ Our class was tasked with making a table of contents of what our Style Guides wi
     + ex: We're Punk. Not Emo.
 
 ##Discovery Stage
+
 - Experimentation / Trial & Error
     + Word Lists
     + Textures
@@ -56,6 +61,7 @@ Our class was tasked with making a table of contents of what our Style Guides wi
     + Basic Layout and Design Ideas
 
 ##Style Decisions
+
 - Semi-Final Style Tiles / Collages
 - Detailed Layout Sketches
 - Detail Pattern Examples
@@ -67,19 +73,24 @@ Our class was tasked with making a table of contents of what our Style Guides wi
     + Client may decide to use it later and doing it now gives them the guide just in case
 
 ##Layout
+
 - Low Resolution Wireframes
 - Pixel Perfect Mockups
 
 ##Implementation
+
 - Build of actual site structure
 - Inclusion of Fallbacks / Mixins / Partials
 - Test Every Page on All Screen Sizes and in All Browsers
 
 ##Future Plans / Goals
+
 - Discussions of ideas to implement once main goals have been completed
 
 ##....8?
+
 - ...uuhhhhhhhh..
 
 ##Profit
+
 - sweet party

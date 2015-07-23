@@ -98,9 +98,6 @@ body {
     }
 
 
-a,p, .marginnote a,p, .sidenote a,p{
-  color: $linkcolor;
-}
 ul.content{
   list-style: none;
 }
@@ -135,22 +132,30 @@ sub { top: -2em; }
   position: relative;
 }
 .sidenote {
+    position: absolute;
     display: none;
 }
 
-.sidenote a,p {
-  font-size: 1em;
+.sidenote,.bottomnote {
+  font-size: 0.7em;
   line-height: 2.177777777778;
   margin-bottom: 2.177777777778rem;
 
 } 
-.sidenote a {
+.sidenote,.bottomnote {
   text-decoration: none;
-  word-break: break-all;
+  // word-break: break-all;
   font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
-    color: lighten($fontcolor,30%);
+   a{ 
+   color: lighten($fontcolor,30%);
 }
-
+}
+.bottomnote {
+    display: block;
+    margin-left:4em;
+    margin-top: 6em;
+    width:60%;
+}
 sup.sidenote-number {
   color: #ed0000; 
 }
@@ -489,6 +494,21 @@ blockquote p {
    margin-bottom: 0;
    font-style: italic;
 }
+ul, ol {
+    // margin-left: 4.5em;
+    // list-style-type: georgian;
+    // margin-bottom:1em; 
+}
+
+li {
+    > ul,
+    > ol {
+         // margin-bottom: 2em;
+         // display: block;
+         // list-style-type: lower-greek;
+    }
+}
+
 code, pre {
    font-family: Monaco, Andale Mono, Courier New, monospace;
 }

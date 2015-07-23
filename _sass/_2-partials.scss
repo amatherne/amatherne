@@ -54,14 +54,14 @@ body,
   }
 }
 
-%clearfix {
+// %clearfix {
 
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
+//     &:after {
+//         content: "";
+//         display: table;
+//         clear: both;
+//     }
+// }
 /* ==================== Drop Menu ============================== */
 .slicknav_menu {
   display:none;
