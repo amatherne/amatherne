@@ -25,8 +25,11 @@ The Clarity I was aiming for would decrease the amount of content clutter on the
 
 
 1. Research Client
-2. Look into possible problems and solutions to them
-3. Discover Possible Paths towards Solution
+2. User Stories
+    A. Students who are studying
+    B. People out for a show at the venue attatched
+3. Look into possible problems and solutions to them
+4. Discover Possible Paths towards Solution
     A. Word List
     B. Image/Texture Discovery
     C. Sketches
@@ -34,11 +37,11 @@ The Clarity I was aiming for would decrease the amount of content clutter on the
             b. Rough Layout sketches into
             c. Begin playing with page element styling (buttons, links, captions, etc)
             d. Detailed Sketches
-4. Style Tile/Element Collages
-5. Low Resolution Wireframes of sketches
-6. Mockups
-7. Implementation of Designs
-8. Testing 
+5. Style Tile/Element Collages
+6. Low Resolution Wireframes of sketches
+7. Mockups
+8. Implementation of Designs
+9. Testing 
 
 
 
