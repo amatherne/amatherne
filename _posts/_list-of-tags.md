@@ -1,9 +1,6 @@
 
 
-<figure class="marginnote">
-    <img src="/img/blog/.....">
-    <figcaption>...content....</figcaption>
-</figure>
+<figure class="marginnote"><img src="/img/blog/....."><figcaption>...content....</figcaption></figure>
 
 
 <sup class="sidenote-number">#</sup><fig class="sidenote"><sup class="sidenote-number">#</sup>..content...</fig>
