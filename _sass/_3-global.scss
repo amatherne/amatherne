@@ -35,9 +35,14 @@ body {
     }
     .logo-top {
         // display: none;
+        position: absolute;
         float:right;
-        margin: 3.8em 5% 0 0;
+        top: -0.1em;
+        left:42%;
         width:60px;
+        z-index: 10;
+        background:lighten($highlightcolor2,0%);
+        @include border-bottom-radius(0.4em);
     }
     .menu {
         display: none;
@@ -212,7 +217,7 @@ sup.sidenote-number {
         height: 400%; 
         background-color: $stripe3;
         top: 0;
-        transform: rotate(-45deg);
+        @include rotate (-45);
     }
     &:after {
         content: '';
@@ -222,7 +227,8 @@ sup.sidenote-number {
         width: 100%; 
         height: 250%;
         background: #ffebb8;
-        transform: rotate(-45deg);
+        @include rotate (-45);
+
     }
 }
 .break-mini {
@@ -240,10 +246,10 @@ sup.sidenote-number {
         position: absolute;
         left: 20%;
         width: 100%; 
-        height: 400%; 
+        height: 1000%; 
         background-color: $stripe3;
         top: 0;
-        transform: rotate(-45deg);
+         @include rotate (-45);
     }
     &:after {
         content: '';
@@ -251,9 +257,9 @@ sup.sidenote-number {
         top:0;
         left: 10%;
         width: 100%; 
-        height: 250%;
+        height: 1000%;
         background: #ffebb8;
-        transform: rotate(-45deg);
+         @include rotate (-45);
     }
 }
 .home {
@@ -458,6 +464,7 @@ footer {
         width:28%;
         margin-top: 0.5em;
         max-width:80px;
+        @include rotate(180);
     }
 }
 

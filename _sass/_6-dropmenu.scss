@@ -8,7 +8,7 @@
     // cursor: pointer;
     color:$fontcolor;
         font-size: 30px;
-        top:4em;
+        top:3em;
         right:1em;
         float:right;
         border:2px solid $fontcolor;
@@ -32,7 +32,7 @@
             height: 150%; 
             background-color: $stripe3;
             top: 0;
-            transform: rotate(-45deg);
+            @include rotate (-45);
             z-index: 1;
         }
         &:after {
@@ -43,7 +43,7 @@
             width: 100%; 
             height: 30%;
             background: $stripe2;
-            transform: rotate(-45deg);
+            @include rotate (-45);
             z-index: 1;
         }
 
@@ -54,6 +54,7 @@
 }
 .slicknav_menu {
     *zoom: 1;
+    // z-index: -100000;
     .slicknav_menutxt {
         display: block;
         line-height: 1.188em;
@@ -93,7 +94,7 @@
     top:9.5em;
     clear: both;
     width:100%;
-    z-index:50;
+    // z-index:0;
     ul {
         display: block;
     }

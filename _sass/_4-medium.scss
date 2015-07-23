@@ -76,7 +76,7 @@
 			display: inline-block;
 			float: left;
 			border-right: 1px solid $bordercolor;
-			@include gradient-hori(rgba(255,255,255,0), $secondary,0%,100%);
+			// @include gradient-hori(rgba(255,255,255,0), $secondary,0%,100%);
 		}
 	}
 	.mini-about {
@@ -115,10 +115,10 @@
 		    position: absolute;
 		    left: 20%;
 		    width: 100%; 
-		    height: 600%; 
+		    height: 400%; 
 		    background-color: $stripe3;
 		    top: 0;
-		    transform: rotate(-45deg);
+		    @include rotate (-45);
 		}
 		&:after {
 			content: '';
@@ -126,10 +126,24 @@
 			top:0;
 			left: 10%;
 		    width: 100%; 
-		    height: 600%;
+		    height: 300%;
 			background: #ffebb8;
-			transform: rotate(-45deg);
+			 @include rotate (-45);
 		}
+	}
+	.break-mini {
+    	height:5px;
+    &:before { 
+        left: 20%;
+        width: 100%; 
+        height: 2000%; 
+ 
+    }
+    &:after {
+    	left:10%;
+        width: 100%; 
+        height: 2000%;
+    }
 	}
 	.break-mini:nth-of-type(2),
 	.break-mini:nth-of-type(4) {

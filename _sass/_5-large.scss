@@ -64,33 +64,31 @@
 		display: inline-block;
 		float: left;
 		border-right: 1px solid $bordercolor;
-		@include gradient-hori(rgba(255,255,255,0), $secondary,0%,100%);
+		// @include gradient-hori(rgba(255,255,255,0), $secondary,0%,100%);
 	}
 	.break {
-	    position: relative;
-	    height: 50px;
-	    width: 100%;
-	    overflow: hidden;
-	    background-color: $maincolor;
 		&:before { 
-		    content: '';
-		    position: absolute;
 		    left: 20%;
 		    width: 100%; 
 		    height: 600%; 
-		    background-color: $stripe3;
-		    top: 0;
-		    transform: rotate(-45deg);
 		}
 		&:after {
-			content: '';
-			position: absolute;
-			top:0;
-			left: 10%;
+			left: 5%;
 		    width: 100%; 
-		    height: 600%;
-			background: #ffebb8;
-			transform: rotate(-45deg);
+		    height: 405%;
+		}
+	}
+	.break-mini {
+		height:6px;
+		&:before { 
+		    left: 20%;
+		    width: 100%; 
+		    height: 3000%; 
+		}
+		&:after {
+			left: 5%;
+		    width: 100%; 
+		    height: 3005%;
 		}
 	}
 	.break-mini:nth-of-type(3) {
