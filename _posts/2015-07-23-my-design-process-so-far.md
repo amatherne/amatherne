@@ -6,7 +6,6 @@ date:   2015-07-23 11:07:43
 
 Our class was tasked with making a table of contents of what our Style Guides will look like. This is the one i came up with. Seeing this in front of me actually helps me grasp what i need in my design process. Thanks, Rubber Ducky.
 
-
 #Project Name
 
 ##Client Background/History
@@ -80,5 +79,7 @@ Our class was tasked with making a table of contents of what our Style Guides wi
 - Discussions of ideas to implement once main goals have been completed
 
 ##....8?
+- ...uuhhhhhhhh..
 
 ##Profit
+- sweet party

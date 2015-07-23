@@ -32,6 +32,7 @@ $salmon:rgba(243,159,153,0.5);
     font-style: normal;
 }
 
+
 /* ========================== Border Box ======================= */
 
 @mixin box-sizing($box-model) {
@@ -51,6 +52,15 @@ body,
     outline-color: transparent;
     outline-style: none;
   }
+}
+
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 }
 /* ==================== Drop Menu ============================== */
 .slicknav_menu {
