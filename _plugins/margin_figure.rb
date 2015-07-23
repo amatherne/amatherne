@@ -1,17 +1,17 @@
-module Jekyll
-  class RenderMarginFigureTag < Liquid::Tag
+# module Jekyll
+#   class RenderMarginFigureTag < Liquid::Tag
 
-  	require "shellwords"
+#   	require "shellwords"
 
-    def initialize(tag_name, text, tokens)
-      super
-      @text = text.shellsplit
-    end
+#     def initialize(tag_name, text, tokens)
+#       super
+#       @text = text.shellsplit
+#     end
 
-    def render(context)
-      "<span class='marginnote'><img class='fullwidth' src='#{@text[0]}'/>#{@text[1]}</span>"
-    end
-  end
-end
+#     def render(context)
+#       "<span class='marginnote'><img class='fullwidth' src='#{@text[0]}'/>#{@text[1]}</span>"
+#     end
+#   end
+# end
 
-Liquid::Template.register_tag('marginfigure', Jekyll::RenderMarginFigureTag)
+# Liquid::Template.register_tag('marginfigure', Jekyll::RenderMarginFigureTag)
