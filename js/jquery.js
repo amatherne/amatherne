@@ -471,15 +471,32 @@
 }(jQuery, document, window));
 
 $('nav li ul').hide().removeClass('fallback');
-$('nav li').hover(
-  function () {
-    $('ul', this).stop().slideDown(100);
-  },
-  function () {
-    $('ul', this).stop().slideUp(100);
-  }
-);
 
+$('nav li').hover( function () { 
+
+    $('ul',this).stop().slideDown(300); }, function () { 
+
+        $('ul',this).animate().delay(600).slideUp(100); 
+
+});
+
+
+// $(document).ready(function() {
+//   $("#load_limit").slideUp(500)
+//                   .delay(5000);
+// });
+
+
+
+// 
+$('nav li a')
+  .on('click', function (e) {
+    e.preventDefault();   
+    $(this).addClass('js-animate');
+  })
+  .on('animationend', function navigateTo() {
+  location.href=this.href;
+});
 
 
 

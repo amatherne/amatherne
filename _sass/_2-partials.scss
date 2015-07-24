@@ -63,6 +63,43 @@ body,
 //         clear: both;
 //     }
 // }
+
+/* ============================ rotate ====================== */
+
+
+// generic transform
+@mixin transform($transforms) {
+     -moz-transform: $transforms;
+       -o-transform: $transforms;
+      -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+          transform: $transforms;
+}
+// rotate
+@mixin rotate($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+ 
+// scale
+@mixin scale($scale) {
+   @include transform(scale($scale));
+} 
+// translate
+@mixin translate($x, $y) {
+   @include transform(translate($x, $y));
+}
+// skew
+@mixin skew($x, $y) {
+   @include transform(skew(#{$x}deg, #{$y}deg));
+}
+//transform origin
+@mixin transform-origin ($origin) {
+    moz-transform-origin: $origin;
+       -o-transform-origin: $origin;
+      -ms-transform-origin: $origin;
+  -webkit-transform-origin: $origin;
+          transform-origin: $origin;
+}
 /* ==================== Drop Menu ============================== */
 .slicknav_menu {
   display:none;
@@ -103,10 +140,18 @@ nav {
   background:$stripe3;
   color:$stripe2;
 
+
   a:hover{
   color:$stripe2;
 }
-  
+}
+.js-animate {
+        animation: flipOutX 600ms 1ms 1;
+        // -webkit-animation:flipOutX 1s infinite;
+        // @include transform-origin(bottom);
+        -webkit-backface-visibility: visible !important;
+        -ms-backface-visibility: visible !important;
+        backface-visibility: visible !important; 
 }
 nav ul li ul {
   position:absolute;
@@ -138,7 +183,21 @@ nav ul li ul li {
     opacity: 1;
   }
 }
+@keyframes flipOutX {
+  0% {
+    transform: perspective(400px);
+  }
 
+  50% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: perspective(400px) rotate3d(100, 0, 0, 90deg);
+    opacity: 0;
+  }
+}
 /* ==================== Border Radius ========================== */
 
 @mixin border-radius($radius) {
@@ -227,42 +286,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efe9c8', end
 
 }
 
-/* ============================ rotate ====================== */
 
-
-// generic transform
-@mixin transform($transforms) {
-     -moz-transform: $transforms;
-       -o-transform: $transforms;
-      -ms-transform: $transforms;
-  -webkit-transform: $transforms;
-          transform: $transforms;
-}
-// rotate
-@mixin rotate($deg) {
-  @include transform(rotate(#{$deg}deg));
-}
- 
-// scale
-@mixin scale($scale) {
-   @include transform(scale($scale));
-} 
-// translate
-@mixin translate($x, $y) {
-   @include transform(translate($x, $y));
-}
-// skew
-@mixin skew($x, $y) {
-   @include transform(skew(#{$x}deg, #{$y}deg));
-}
-//transform origin
-@mixin transform-origin ($origin) {
-    moz-transform-origin: $origin;
-       -o-transform-origin: $origin;
-      -ms-transform-origin: $origin;
-  -webkit-transform-origin: $origin;
-          transform-origin: $origin;
-}
 
 
 
