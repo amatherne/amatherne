@@ -2,6 +2,7 @@
 layout: post
 title:  "How Javascript is going to ruin my life."
 date:   2015-07-16 14:28:43
+categories: post
 ---
 
 I have a problem. It's permiated my life for a while now. I've learned over the years to keep it under some control. But i always go overboard at first. I can admit this:

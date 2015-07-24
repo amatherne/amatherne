@@ -2,6 +2,7 @@
 layout: post
 title:  "Just Give Me All The Bacon And Eggs You Have"
 date:   2015-07-01 05:13:43
+categories: post
 ---
 ![Ron Swanson all beefed up](/img/blog/chesthair.jpg "Why cant i think of a good pun for this")
 

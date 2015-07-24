@@ -134,6 +134,9 @@ nav {
     display:inline-block;
     margin:0.5em;
   }
+  a {
+
+  }
 }
 
 .menu li:hover {
@@ -146,7 +149,15 @@ nav {
 }
 }
 .js-animate {
-        animation: flipOutX 600ms 1ms 1;
+        animation: flipOutX 1210ms -100ms 1 forwards;
+        // -webkit-animation:flipOutX 1s infinite;
+        // @include transform-origin(bottom);
+        -webkit-backface-visibility: visible !important;
+        -ms-backface-visibility: visible !important;
+        backface-visibility: visible !important; 
+}
+.js-animate2 {
+        animation: flipOutX 1210ms -100ms 1 reverse forwards;
         // -webkit-animation:flipOutX 1s infinite;
         // @include transform-origin(bottom);
         -webkit-backface-visibility: visible !important;

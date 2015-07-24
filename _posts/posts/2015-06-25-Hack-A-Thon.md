@@ -2,6 +2,7 @@
 layout: post
 title:  "Blank"
 date:   2015-06-25 09:48:43
+categories: post
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, quidem, dolore. Odio iure facilis nisi id qui hic, aperiam. Iusto nostrum maiores, enim modi doloribus culpa temporibus facere architecto sint.
 

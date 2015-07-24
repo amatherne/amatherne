@@ -2,7 +2,9 @@
 layout: default
 ---
 <div class="mini-about">
-            <img class="logo" src="/img/blog/face.png">
+            <img class="logo-2" src="/img/blog/face-secondhalf.png">
+            <img class="logo" src="/img/blog/face-half.png">
+            
             <p><span>Hi </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex voluptas deleniti eveniet tempore rerum incidunt consectetur atque, veniam velit explicabo quas fuga neque corporis sapiente autem. Quas voluptate, expedita at.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -17,7 +19,7 @@ layout: default
 
   <h1 class="page-heading">Writings</h1>
   <ul class="post-list">
-    {% for post in site.posts limit:5 %}
+    {% for post in site.categories['post'] limit:5 %}
     <div class="break-mini"></div>
       <li class="post-box">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><!-- <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"><span>Continue</span></a> -->

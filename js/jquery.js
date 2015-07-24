@@ -470,25 +470,20 @@
     };
 }(jQuery, document, window));
 
+
+
+
 $('nav li ul').hide().removeClass('fallback');
 
 $('nav li').hover( function () { 
 
     $('ul',this).stop().slideDown(300); }, function () { 
 
-        $('ul',this).animate().delay(600).slideUp(100); 
+        $('ul',this).animate().delay(1200).slideUp(200); 
 
 });
 
 
-// $(document).ready(function() {
-//   $("#load_limit").slideUp(500)
-//                   .delay(5000);
-// });
-
-
-
-// 
 $('nav li a')
   .on('click', function (e) {
     e.preventDefault();   

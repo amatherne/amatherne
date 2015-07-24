@@ -2,6 +2,7 @@
 layout: post
 title:  "Writing Is Scary"
 date:   2015-06-15 09:48:43
+categories: post
 ---
 
 ##Website Sketches

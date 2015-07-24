@@ -2,6 +2,7 @@
 layout: post
 title:  "Checking Your Screen Width Live"
 date:   2015-07-15 11:25:00
+categories: post
 ---
 This is a game changer for me. I can use this while checking media queries. I love jQuery. 
 

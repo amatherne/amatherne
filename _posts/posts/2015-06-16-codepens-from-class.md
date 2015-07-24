@@ -2,6 +2,7 @@
 layout: post
 title:  "CodePens from Class"
 date:   2015-06-16 09:48:43
+categories: post
 ---
 
 ##Responsive Codepens

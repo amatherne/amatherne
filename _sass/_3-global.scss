@@ -3,9 +3,16 @@ body {
     font-size:15px;
     color:$fontcolor;
     line-height:1.5em;
+    background:lighten(#e2cdc5,17%);
     a {
         color:$linkcolor;
         font-family: $displayfont-2, serif;
+    }
+}
+.quotebreak {
+    br {
+        line-height: -0.5em;
+        padding:-0.5em;
     }
 }
 .site-header {
@@ -37,11 +44,12 @@ body {
         // display: none;
         position: absolute;
         float:right;
-        top: -0.1em;
-        left:42%;
+        top: -0.3em;
+        right:4.6em;
         width:60px;
         z-index: 10;
-        background:lighten($highlightcolor2,0%);
+        // background:lighten($highlightcolor2,20%);
+        border: 3px dashed $highlightcolor2;
         @include border-bottom-radius(0.4em);
     }
     .menu {
@@ -51,16 +59,21 @@ body {
 
 }
 
-
-
 .post {
     margin:1em auto;
     h1 {
         clear:both;
         font-size: 30px;
         width: 70%;
-        margin:1em 15% 1em 15%;
+        margin:1em 15% 1em 10%;
         line-height: 0.7em;
+    }
+    .tour-heading {
+        clear:both;
+        font-size: 20px;
+        width: 70%;
+        margin:1em 15% 1em 10%;
+        line-height: 1.2em;
     }
     .post-content {
         p {
@@ -70,7 +83,8 @@ body {
             line-height: 2em;
         }
         h2 {
-            margin: 1em 10%;
+
+            margin: 1em 15% 1em 10%;
             font-size: 22px;
         }
     }
@@ -100,6 +114,7 @@ body {
     img {
         max-width: 85%;
         margin:2em 7.5%;
+        background:clear;
     }
 
 
@@ -107,7 +122,7 @@ ul.content{
   list-style: none;
 }
 img { 
-    max-width: 100%;
+    max-width: 110%;
     margin:0em;
 
 }
@@ -123,11 +138,15 @@ sub { top: -2em; }
 .fullwidth { 
     max-width: 100%; 
 } 
-
+.sidenote, .marginnote, .bottomnote {
+    br {
+        line-height: 0.5em;
+    }
+}
 .sidenote, .marginnote{
   float: right;
   clear: right;
-  margin-right: 0%;
+  margin-right: 10%;
   padding:0em 1em;
   width: 30%;
   // margin-bottom: 1.96rem;
@@ -166,6 +185,8 @@ sup.sidenote-number {
 }
 
 }
+
+
 .archive {
     clear:both;
     margin:2em 5%;
@@ -194,17 +215,34 @@ sup.sidenote-number {
 
 
 .mini-about {
-    margin:10em 5% 10em 5%;
+    margin:10em 0% 10em 0%;
     img {
         display: none;
-         background:lighten($highlightcolor2,0%);
+         // background:lighten($highlightcolor2,0%);
         @include border-bottom-radius(0.4em);
     }
     span {
         font-family: $displayfont-2,serif;
         font-size: 60px;
     }
+    h2 {
+        font-family: $displayfont-2;
+        font-size: 30px;
+        margin: 0em 15% 0.7em 20%;
+        padding-top:1em;
+        z-index: 1000;
+
+    }
 }
+  .jumbotron {
+        background: url("/img/blog/drumset.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        height: 300px;
+        width: 80%;
+        margin: 0em 10%;
+        background-position: center top;
+    }
 .break {
     position: relative;
     height: 20px;
@@ -279,14 +317,36 @@ sup.sidenote-number {
          height:120px;
          z-index: -10000;
     }
+    .tour-fade {
+
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+
+        @include gradient-vert(rgba(255,255,255,0), $secondary,0%,100%);
+         // background:blue;
+         height:300px;
+         z-index: -10000;
+    }
     h1 {
         font-family: $displayfont-2;
         font-size: 50px;
-        margin: 0em 5% 0.7em 5%;
+        margin: 0em 15% 0.7em 12%;
         padding-top:1em;
         z-index: 1000;
 
     }
+    
+    .tour-heading {
+        font-size: 35px;
+        width: 70%;
+        margin:0em 15% 1em 10%;
+        line-height: 1em;
+        z-index: 1000;
+        // color:white;
+    }
+  
     span {
         font-size: 14px;
         // margin-bottom: 1em;
@@ -380,51 +440,6 @@ sup.sidenote-number {
         }
 
     }
-
-
-
-    .read-more {
-        float: right;
-        color:$fontcolor;
-        border:2px solid $bordercolor;
-        position: relative;
-        display: block;
-        height: 30px;
-        width: 120px;
-        margin-bottom: 0.7em;
-        // bottom:0.5em;
-        // right:0.5em;
-        z-index: 5000;
-        overflow: hidden;
-        background-color: $maincolor;
-        span {
-            z-index: 1000;
-            position: absolute;
-            bottom:-0.2em;
-            left: 0.2em;
-            font-size: 20px;
-        }
-        &:before { 
-            content: '';
-            position: absolute;
-            left: 32%;
-            width: 100%; 
-            height: 350%; 
-            background-color: $stripe3;
-            top: 0;
-            transform: rotate(-45deg);
-        }
-        &:after {
-            content: '';
-            position: absolute;
-            top:0;
-            left: 0%;
-            width: 100%; 
-            height: 100%;
-            background: $stripe2;
-            transform: rotate(-45deg);
-        }
-    }
     p {
         margin:0.7em auto;
         font-size: 15px;
@@ -464,11 +479,11 @@ footer {
     
     .logo-bottom{
         position: absolute;
-        bottom:-0.1em;
-        left: 40%;
+        bottom:3em;
+        right: -0.4em;
         width:80px;
-        @include rotate(180);
-         background:lighten($highlightcolor2,0%);
+        @include rotate(90);
+         border: 3px dashed $highlightcolor2;
         @include border-bottom-radius(0.4em);
     }
 }
@@ -508,18 +523,31 @@ blockquote p {
    font-style: italic;
 }
 ul, ol {
-    // margin-left: 4.5em;
-    // list-style-type: georgian;
-    // margin-bottom:1em; 
+    
 }
+article{
+ul,ol {
 
-li {
-    > ul,
-    > ol {
-         // margin-bottom: 2em;
-         // display: block;
-         // list-style-type: lower-greek;
+    list-style: url(/img/icons/controller-volume.svg);
+    margin:1em 10% 1em 5em; 
+    color: lighten($fontcolor,20%);
+   font-family: Monaco, Andale Mono, Courier New, monospace;
+    li {
+        margin:0.5em 0;
     }
+    ul,ol {
+        margin-left: 3em;
+         margin-bottom: 2em;
+         display: block;
+         // list-style-type: lower-greek;
+         > ul,
+        > ol {
+             margin-bottom: 2em;
+             display: block;
+             // list-style-type: lower-greek;
+        }
+    }
+}
 }
 
 code, pre {

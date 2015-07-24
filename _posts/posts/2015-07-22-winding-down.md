@@ -2,6 +2,7 @@
 layout: post
 title:  "Winding Down"
 date:   2015-07-22 09:11:43
+categories: post
 ---
 I stayed up *just about* all of last night. Forced myself to sleep at 7:00am. I've had a shower, breakfast, and i'm now 17 minutes into my second to last design lecture. (I'm killin' it today.) I find that I work myself into a late night groove and it's difficult to pull myself out of it at times. 
 

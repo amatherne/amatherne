@@ -2,6 +2,7 @@
 layout: post
 title:  "My Design Process So Far"
 date:   2015-07-23 11:07:43
+categories: post
 ---
 
 Our class was tasked with making a table of contents of what our Style Guides will look like. This is the one i came up with. Seeing this in front of me actually helps me grasp what i need in my design process. Thanks, Rubber Ducky.

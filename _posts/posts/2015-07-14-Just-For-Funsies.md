@@ -2,6 +2,7 @@
 layout: post
 title:  "Just For Funsies"
 date:   2015-07-14 09:33:43
+categories: post
 ---
 
 I've been playing music with Marcos Gossi for almost 6 years. He's been a dynamic force in my life the entire way. He consistently brings new ideas and bigger thoughts into both my life and the music we make. Just like anyone else, he frequently uses similar phrases over and over; my favorite line is:

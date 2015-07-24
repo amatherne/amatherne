@@ -1,0 +1,41 @@
+---
+layout: default
+title: Tour Journal
+permalink: /tour-journal/
+---
+
+<div class="jumbotron">
+
+</div>
+
+
+<div class="mini-about">
+            <div class="break"></div>
+            <h2>This is Real Talk</h2> 
+            <p>Though i have left out certain personal aspects of my bandmates lives, though I've left out the names of people and bands we've met along the way; these Journals I've kept have been for the express purpose of documenting the sometimes wild situations we find ourselves in. Our days range from "Boring as all Hell" to "Hey Austin, dont write this down!" I want to remember as much as i can. If you've ever wanted a behind the scenes and no bullshit portrayal of a tour band: this is it.</p>
+
+</div>
+<div class="home">
+  
+
+  <div class="tour-fade"></div>
+
+  <h1 class="tour-heading">A Brief View into the Life of a Working Band</h1>
+  <ul class="post-list">
+    {% for post in site.categories['tour'] limit:5 %}
+    <div class="break-mini"></div>
+      <li class="post-box">
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><!-- <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"><span>Continue</span></a> -->
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+         <p>{{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+<div class="break"></div>

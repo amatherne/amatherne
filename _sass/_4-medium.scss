@@ -50,7 +50,7 @@
 		  display: initial;
 		  float: right;
 		  clear: right;
-		  margin-right: -80%;
+		  margin-right: -75%;
 		  padding:0em 1em;
 		  width: 70%;
 		  // margin-bottom: 1.96rem;
@@ -66,8 +66,10 @@
 	@media screen and (min-width:800px){
 		.post {
 			width: 40%;
+			.marginnote {
+				margin-right: -65%;
+			}
 		}
-
 		.archive {
 			
 			width: 30%;
@@ -81,12 +83,28 @@
 	}
 	.mini-about {
 		margin:15em 10%;
-		img {
+		.logo {
 			display: block;
 			float: left;
-			width: 25%;
-			max-width: 190px;
-			margin:5em 2.5% 7em 2.5%;
+			width:290px;
+			max-width: 500px;
+			// max-width: 190px;
+			margin:-2em 0 1em -150px;
+			background:clear;
+			border: 2px dashed $highlightcolor2;
+        	@include border-bottom-radius(0.4em);
+
+		}
+		.logo-2 {
+			display: none;
+			float: left;
+			width:290px;
+			max-width: 500px;
+			// max-width: 190px;
+			margin:-2em 0 1em -150px;
+			background:clear;
+			border: 2px dashed $highlightcolor2;
+        	@include border-bottom-radius(0.4em);
 		}
 		a {
 			float: right;
@@ -97,12 +115,18 @@
 		p {
 			float: right;
 			width: 60%;
-			margin:0 5% 9em 5%;
+			margin:0 2% 9em 5%;
 		}
 		span {
 			font-size: 40px;
 		}
 
+	}
+	.jumbotron {
+		margin:0em 5%;
+		width:90%;
+		height: 450px;
+		background-position:center;
 	}
 	.break {
 	    position: relative;
@@ -162,7 +186,7 @@
     h1 {
         font-family: $displayfont-2;
         font-size: 75px;
-        margin: 0em 5% 1.5em 0%;
+        margin: 0em 5% 1.5em 10%;
         padding-top:1.5em;
     }
     span {
@@ -213,8 +237,8 @@
 }
 footer {
 	.logo-bottom {
-		left:42%;
-		width:140px;
+		
+
 	}
 }
 }

@@ -12,11 +12,15 @@
                     <a href="#">Writings</a>
                     <ul>
                         <li>
-                          {% for post in site.posts limit:1 %}
+                          {% for post in site.categories['post'] limit:1 %}
                           <a href="{{ post.url | prepend: site.baseurl }}">Blog</a>
                           {% endfor %}
                         </li>
-                        <li><a href="#">Tour Journal</a></li>
+                        <li>
+                        
+                          <a href="/tour-journal">Tour Journal</a>
+                      
+                        </li>
                     </ul>
                 </li>
                 <li>
