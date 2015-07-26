@@ -495,3 +495,10 @@ $('nav li a')
 
 
 
+// width marker
+$(window).resize(function() {
+  $('.show-width').html('<p>' + $(window).width() + 'px' + '</p>');
+});
+
+
+

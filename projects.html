@@ -4,22 +4,24 @@ title: Projects
 permalink: /projects/
 ---
 
-<div class="project-container">
+<div class="tour-fade"></div>
 
-		<div class="break-mini"></div>
+<h1 class="tour-heading">Recent Projects</h1>
+<ul class="post-list">
+{% for post in site.categories['project'] limit:5 %}
+<div class="break-mini"></div>
+  <li class="post-box">
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><!-- <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"><span>Continue</span></a> -->
+    <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+     <p>{{ post.excerpt }}</p>
+  </li>
+{% endfor %}
+</ul>
 
-	<div class="project-view">
 
-		<!-- <img src="http://www.fillmurray.com/200/300"> -->
-
-		<h2><a href="#">Name</a><h2>
-
-		<a class="date-tag" href="#">date</a>
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati necessitatibus cupiditate, repellendus consequatur perspiciatis praesentium nisi repellat magnam quae, fugit officia consequuntur facilis qui iusto natus minima similique aliquam porro? </p>
-
-	</div>
-
-		<div class="break-mini"></div>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+<div class="break"></div>

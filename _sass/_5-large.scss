@@ -63,21 +63,9 @@
 		margin:5em 5% 5em 0%;
 		display: inline-block;
 		float: left;
-		.sidenote, .marginnote{
-		  float: right;
-		  clear: right;
-		  margin-right: -50%;
-		  padding:0em 1em;
-		  width: 50%;
-		  // margin-bottom: 1.96rem;
-		  font-size: 0.8em;
-		  // line-height: 1.96;
-		  vertical-align: baseline;
-		  position: relative;
-		}
 	}
 	.archive {
-		width: 25%;
+		width: 20%;
 		z-index: -100;
 		margin:7em 2%;
 		display: inline-block;

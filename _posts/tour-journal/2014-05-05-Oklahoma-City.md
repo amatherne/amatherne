@@ -8,6 +8,8 @@ categories: tour
 What a day.
 Woke up early from the the Gatsby House to go grab coffee. Decided to head out as early as possibly to get and oil change and take care of stuff at Walmart.
 
+<fig class="sidenote">“Bet you boys like meatloaf!” <BR>-Richard impersonating the people at Walmart in bumfuck Oklahoma talking about us </fig>
+
 We got to OKC around 3:30 and were directed to this really awesome part of town. Pretty much a bunch of neat shops and cafes in a really nice setting. Enjoyed some coffee from a cafe called the Parish, and then had some BADASS food from this pizzeria across the street. Empire Slice House made all these super great artesian pizzas and i had these Stuffed Banana Peppers. Super spicy and incredibly tasty.
 
 <fig class="sidenote">“Yo dude KFC for breakfast?! Mix my coleslaw and macaroni?! Macasloni?!”<BR>
@@ -18,7 +20,7 @@ Decided to go load in since the venue ended up being literally a block away. Bad
 <fig class="sidenote">““That is a big ol veiny, valiant dick.”<BR> – Austin about a photo of a large wiener.<BR><BR>
 “Hey let’s stop looking at dicks and get back to work here.”<BR> – Marcos cause Austin wouldn’t look away.</fig>
 
-The first two bands were honestly pretty shitty. The first one was this sort of pop punk/ska band. Terrible. They were followed by a somehow worse band; some sort of jam band with now vocals and one guitar amp for two guys.  What really sealed the terribleness was that it took them forever to get off the stage. I actually offered to help <fig class="sidenote">“Bet you boys like meatloaf!” <BR>-Richard impersonating the people at Walmart in bumfuck Oklahoma talking about us </fig>the drummer, but “i got it, thanks!” They took so long that Richard eventually just started moving their guitar amp out of the way since they obviously weren’t going to. I can’t stand that level of unprofessionalism. We thought about finding them afterwards and explaining why all of it was so annoying, but honestly it wouldn’t have helped. We’d have just ended up being “that asshole band”.
+The first two bands were honestly pretty shitty. The first one was this sort of pop punk/ska band. Terrible. They were followed by a somehow worse band; some sort of jam band with now vocals and one guitar amp for two guys.  What really sealed the terribleness was that it took them forever to get off the stage. I actually offered to help the drummer, but “i got it, thanks!” They took so long that Richard eventually just started moving their guitar amp out of the way since they obviously weren’t going to. I can’t stand that level of unprofessionalism. We thought about finding them afterwards and explaining why all of it was so annoying, but honestly it wouldn’t have helped. We’d have just ended up being “that asshole band”.
 
 <fig class="sidenote">“You burned me with your burrito you bastard!” <BR>-Richard</fig>
 
