@@ -9,7 +9,7 @@ categories: project
 
 In their own words:
 
-<fig class="marginnote"><img src="/img/portfolio/strangebrew/current.png"><figcaption>A Current Look.</figcaption></fig>
+<fig class="marginnote"><img src="http://amatherne.github.io/img/portfolio/strangebrew/current.png"><figcaption>A Current Look.</figcaption></fig>
 
 "Strange Brew, Austin Coffee is locally owned. We feature organic Fair Trade Espresso and coffee from Third Coast Coffee, Zhi Tea, Rock Star Bagels and Quack's 43rd Street Bakery... just to name a few. We also serve pastries, paninis, breakfast tacos are served Saturday and Sunday mornings with an assortment of other goodness.
 
@@ -22,7 +22,7 @@ Strange Brew supports a healthy environment by utilizing 95% compostable and rec
 
 
 ##SWOT Analysis
-<fig class="marginnote"><img src="/img/portfolio/strangebrew/wordlist-sm.jpg"><figcaption>An initial wordlist breaking off of "cafe"</figcaption></fig>
+<fig class="marginnote"><img src="http://amatherne.github.io/img/portfolio/strangebrew/wordlist-sm.jpg"><figcaption>An initial wordlist breaking off of "cafe"</figcaption></fig>
 1. Strengths
 
     + Already established as a locally owned and operated business.
