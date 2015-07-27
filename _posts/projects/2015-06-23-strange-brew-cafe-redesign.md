@@ -29,8 +29,6 @@ I examined the site nav in detail in order to try to make sense of what I was go
 <BR><BR>
 <fig class="marginnote"><a data-overlay-trigger="links-1" href="#!"><img src="/img/portfolio/strangebrew/links-sm.jpg"><figcaption>Breaking down the link setup and Site-map.</figcaption></a></fig>
 
-<fig class="marginnote"><a data-overlay-trigger="current" href="#!"><img src="/img/portfolio/strangebrew/current-sm.png"><figcaption>Current View Of StrangeBrewAustin.com</figcaption></a></fig>
-
 <div class="overlay" id="links-1">
     <img class="modal" src="/img/portfolio/strangebrew/links-lg.jpg">
     <span class="modal">Breaking down the link setup and Site-map.</span>
@@ -57,7 +55,7 @@ The last step before starting on design and layout was a word list to help me ge
 <BR><BR>
 <h2>Sketching</h2>
 
-<fig class=""><a data-overlay-trigger="sketch1" href="#!"><img style="width:80%; margin:0em 10%;" src="/img/portfolio/strangebrew/sketch1-sm.jpg"><figcaption>A Beginning to a new Menu.</figcaption></a></fig>
+<fig class="marginnote"><a data-overlay-trigger="sketch1" href="#!"><img src="/img/portfolio/strangebrew/sketch1-sm.jpg"></a><figcaption>A Beginning to a new Menu.</figcaption></fig>
 
 <div class="overlay" id="sketch1">
     <img class="modal" src="/img/portfolio/strangebrew/sketch1-lg.jpg">
