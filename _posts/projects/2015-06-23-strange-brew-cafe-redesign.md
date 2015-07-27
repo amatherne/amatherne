@@ -27,17 +27,17 @@ The current site they were using was visually overbearing and had little in the 
 
 I examined the site nav in detail in order to try to make sense of what I was going to be working with. I felt that my best course of action was to take a step back and list all of the content they want available with no order. Once I'd done that I grouped the content into categories. When the content was all organized(ish) I still noticed some irregularities. 
 <BR><BR>
-<fig class="marginnote"><a data-overlay-trigger="links-1" href="#!"><img src="/img/portfolio/strangebrew/links-sm.jpg"></a><figcaption>Breaking down the link setup and Site-map.</figcaption></fig>
+<fig class="marginnote"><a data-overlay-trigger="breakingdown" href="#!"><img src="/img/portfolio/strangebrew/links-sm.jpg"></a><figcaption>Breaking down the link setup and Site-map.</figcaption></fig>
 
-<div class="overlay" id="links-1">
+<div class="overlay" id="breakingdown">
     <img class="modal" src="/img/portfolio/strangebrew/links-lg.jpg">
     <span class="modal">Breaking down the link setup and Site-map.</span>
 </div>
 Some items were very similar to others in my list; often identical. My next step was to condense as much of the material as possible. Some pages were combined. Some links were nested. And some content I decided was probably unnecissary in the first place. I wanted to be careful, though, about what items we did away with. 
 <BR><BR>
-<fig class="marginnote"><a data-overlay-trigger="links-2" href="#!"><img src="/img/portfolio/strangebrew/links2-sm.jpg"></a><figcaption>Bringing in some Clarity and Hierarchy</figcaption></fig>
+<fig class="marginnote"><a data-overlay-trigger="clarity" href="#!"><img src="/img/portfolio/strangebrew/links2-sm.jpg"></a><figcaption>Bringing in some Clarity and Hierarchy</figcaption></fig>
 
-<div class="overlay" id="links-2">
+<div class="overlay" id="clarity">
     <img class="modal" src="/img/portfolio/strangebrew/links2-lg.jpg">
     <span class="modal">Bringing in some Clarity and Hierarchy</span>
 </div>
