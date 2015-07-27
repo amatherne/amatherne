@@ -3,7 +3,7 @@ layout: project-post
 title:  "Strange Brew Cafe"
 date:   2015-06-23 09:14:44
 categories: project
-img: ../img/portfolio/strangebrew/home-lg.png
+img: /img/portfolio/strangebrew/home-lg.png
 ---
 
 <fig class="marginnote"><a data-overlay-trigger="current" href="#!"><img src="/img/portfolio/strangebrew/current-sm.png" /><figcaption>Current View Of StrangeBrewAustin.com</figcaption></a></fig>
