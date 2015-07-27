@@ -1,6 +1,6 @@
 body {
     font-family: $globalfont, serif;
-    font-size: 15px;
+    font-size: 14.5px;
     color: $fontcolor;
     line-height: 1.5em;
     background: lighten(#e2cdc5, 17%);
@@ -267,10 +267,10 @@ body {
     }
     figcaption {
         display: block;
-        font-size: 0.9em;
+        font-size: 0.8em;
         text-align: center;
-        width: 70%;
-        margin: 0.8em 20% 0.8em 10%;
+        width: 80%;
+        margin: 0.8em 10% 0.8em 10%;
     }
 }
 

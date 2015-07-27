@@ -93,14 +93,21 @@
 		  display: initial;
 		  float: right;
 		  clear: right;
-		  margin-right: -40%;
+		  margin-right: -38%;
 		  // padding:0em 1em;
-		  width: 45%;
+		  width: 50%;
 		  // // margin-bottom: 1.96rem;
 		  // font-size: 1em;
 		  // // line-height: 1.96;
 		  // vertical-align: baseline;
 		  // position: relative;
+		  figcaption {
+		  	width: 80%;
+		  	font-size: 0.7em;
+		  	margin-left:20%;
+		  	text-align: center;
+		  	display: block;
+		  }
 		}
 		.sidenote{
 			display: initial;
