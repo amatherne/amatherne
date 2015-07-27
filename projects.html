@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project-page
 title: Projects
 permalink: /projects/
 ---
@@ -10,13 +10,15 @@ permalink: /projects/
 <ul class="post-list">
 {% for post in site.categories['project'] limit:5 %}
 <div class="break-mini"></div>
+	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
   <li class="post-box">
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><!-- <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"><span>Continue</span></a> -->
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
     <h2>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      {{ post.title }}
     </h2>
-     <p>{{ post.excerpt }}</p>
-  </li>
+    <img style="" src="{{ post.img }}">
+<!--      <p>{{ post.excerpt }}</p> -->
+  </li></a>
 {% endfor %}
 </ul>
 

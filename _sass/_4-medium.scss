@@ -1,4 +1,5 @@
 @media screen and (min-width:550px){
+
 	.site-header {
 		height:17em;
 		.site-title {
@@ -79,26 +80,49 @@
 			width: 100%;
 		}
 	}
-	
-	@media screen and (min-width:800px){
-		.post {
-			width: 50%;
-			.marginnote {
-				width: 50%;
-				margin-right: -38%;
-			}
-		}
-		.archive {
-			
-			width: 20%;
-			z-index: -100;
-			margin:7em 2%;
-			display: inline-block;
+	.project-post {
+
+			width: 65%;
+			margin:5em 2%;
+
+			// display: inline-block;
 			float: left;
-			border-right: 1px solid $bordercolor;
-			// @include gradient-hori(rgba(255,255,255,0), $secondary,0%,100%);
+		
+
+		.marginnote{
+		  display: initial;
+		  float: right;
+		  clear: right;
+		  margin-right: -40%;
+		  // padding:0em 1em;
+		  width: 45%;
+		  // // margin-bottom: 1.96rem;
+		  // font-size: 1em;
+		  // // line-height: 1.96;
+		  // vertical-align: baseline;
+		  // position: relative;
+		}
+		.sidenote{
+			display: initial;
+		  float: right;
+		  clear: right;
+		  margin-right: -70%;
+		  padding:0em 1em;
+		  width: 65%;
+		  // margin-bottom: 1.96rem;
+		  font-size: 0.8em;
+		  // line-height: 1.96;
+		  vertical-align: baseline;
+		  position: relative;
+		}
+		.bottomnote {
+			display: none;
+		}
+		img {
+			width: 100%;
 		}
 	}
+	
 	.mini-about {
 		margin:15em 10%;
 		.logo {
@@ -195,68 +219,131 @@
 
 
 
-.home {
-    margin: 0em 0 0 0;
-    .fade {
-    	// background: blue;
-    	height:250px;
-    }
-    h1 {
-        font-family: $displayfont-2;
-        font-size: 75px;
-        margin: 0em 5% 1.5em 10%;
-        padding-top:1.5em;
-    }
-    span {
-        font-size: 14px;
-        // margin-bottom: 1em;
-        display: inline-block;
-    }
-	.post-box {
-		width: 42.7%;
-		height: 300px;
-		margin: 0.4em 1.3% 0.4em 6%;
-		float:left;
-		
-		&:nth-of-type(2) {
-			margin:0.4em 6% 0.4em 1.3%;
-		}
-		&:nth-of-type(3){
-			margin: 0.5em 1.3% 0.5em 6%;
-			max-height:200px;
-        	width: 27%;
-		}
-		&:nth-of-type(4) {
-			margin: 0.5em 1.3% 0.5em 1.3%;
-			max-height:200px;
-        	width: 27%;
-		}
-		&:nth-of-type(5) {
-			margin: 0.5em 6% 0.5em 1.3%;
-			display: block;
-			max-height:200px;
-        	width: 27%;
-			p, .read-more {
-                display: none;
-            }
-            h2 {
-                font-size: 16px;
-                clear:both;
+	.home {
+	    margin: 0em 0 0 0;
+	    .fade {
+	    	// background: blue;
+	    	height:250px;
+	    }
+	    h1 {
+	        font-family: $displayfont-2;
+	        font-size: 75px;
+	        margin: 0em 5% 1.5em 10%;
+	        padding-top:1.5em;
+	    }
+	    span {
+	        font-size: 14px;
+	        // margin-bottom: 1em;
+	        display: inline-block;
+	    }
+		.post-link {
+			width: 42.7%;
+			height: 300px;
+			margin: 0.4em 1.3% 0.4em 6%;
+			float:left;
+			
+			&:nth-of-type(2) {
+				margin:0.4em 6% 0.4em 1.3%;
+			}
+			&:nth-of-type(3){
+				margin: 0.5em 1.3% 0.5em 6%;
+				max-height:200px;
+	        	width: 27%;
+			}
+			&:nth-of-type(4) {
+				margin: 0.5em 1.3% 0.5em 1.3%;
+				max-height:200px;
+	        	width: 27%;
+			}
+			&:nth-of-type(5) {
+				margin: 0.5em 6% 0.5em 1.3%;
+				display: block;
+				max-height:200px;
+	        	width: 27%;
+				p, .read-more {
+	                display: none;
+	            }
+	            h2 {
+	                font-size: 16px;
+	                clear:both;
 
-            }
-		}
+	            }
+			}
 
+		}
+	    p {
+	        margin:0.7em auto;
+	        font-size: 15px;
+	        float: left;
+	    }
 	}
-    p {
-        margin:0.7em auto;
-        font-size: 15px;
-        float: left;
-    }
-}
-footer {
-	.logo-bottom {
-		
+	footer {
+		.logo-bottom {
+			
 
+		}
 	}
 }
-}
+
+@media screen and (min-width:800px){
+		.post {
+			width: 50%;
+			.marginnote {
+				width: 50%;
+				margin-right: -38%;
+			}
+		}
+		
+		.archive {
+			
+			width: 20%;
+			z-index: -100;
+			margin:7em 2%;
+			display: inline-block;
+			float: left;
+			border-right: 1px solid $bordercolor;
+			// @include gradient-hori(rgba(255,255,255,0), $secondary,0%,100%);
+		}
+	
+		.project-post {
+			width: 65%;
+				margin:5em 2%;
+
+				// display: inline-block;
+				float: left;
+			
+
+			.marginnote{
+			  display: initial;
+			  float: right;
+			  clear: right;
+			  margin-right: -35%;
+			  // padding:0em 1em;
+			  width: 35%;
+			  // // margin-bottom: 1.96rem;
+			  // font-size: 1em;
+			  // // line-height: 1.96;
+			  // vertical-align: baseline;
+			  // position: relative;
+			}
+			.sidenote{
+				display: initial;
+			  float: right;
+			  clear: right;
+			  margin-right: -70%;
+			  padding:0em 1em;
+			  width: 65%;
+			  // margin-bottom: 1.96rem;
+			  font-size: 0.8em;
+			  // line-height: 1.96;
+			  vertical-align: baseline;
+			  position: relative;
+			}
+			.bottomnote {
+				display: none;
+			}
+			img {
+				width: 100%;
+			}
+		}
+	}

@@ -1,7 +1,10 @@
 $global:0.625;
 $globalfont:"john-doe";
-// $globalfont:"american-typewriter";
+
 // $globalfont:serif;
+// $globalfont:"american-typewriter";
+// $globalfont:"letter-gothic-std";
+// $globalfont:"sax-mono";
 $displayfont-2:"aw-conqueror-inline";
 
 
@@ -49,20 +52,20 @@ body,
   p {
     line-height: 1.5em;
   }
-  &:focus {
-    outline-color: transparent;
-    outline-style: none;
-  }
+  // &:focus {
+  //   outline-color: transparent;
+  //   outline-style: none;
+  // }
 }
 
-// %clearfix {
+%clearfix {
 
-//     &:after {
-//         content: "";
-//         display: table;
-//         clear: both;
-//     }
-// }
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
 
 /* ============================ rotate ====================== */
 

@@ -1,0 +1,78 @@
+/* 
+ * overlay.css v1.0.0
+ * Copyright 2014 Joah Gerstenberg (www.joahg.com)
+ */
+
+.overlay {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  // height: 100%;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.85);
+  cursor: pointer;
+
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.overlay .modal {
+  cursor: auto;
+  position: relative;
+  z-index: 110000;
+  margin: 4em 5%;
+  width: 90%;
+  padding: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  img {
+    z-index: 120000;
+    display: block;
+    margin:0;
+    opacity: 1;
+  }
+  @media screen and (min-width:1000px){
+    width: 85%;
+    margin: 1em 7.5%;
+  } 
+  @media screen and (min-width:1200px){
+    width: 70%;
+    margin: 0.5em 15%;
+  } 
+}
+
+ .overlay span.modal{
+
+    display: block;
+    position: absolute;
+    color: white;
+    width: 80%;
+    margin:-4em 10% 0em 10%;
+    padding:1em;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    font-size: 1.1em;
+    @media screen and (min-width:550px){
+        width: 50%;
+        margin:-4em 25% 0em 25%;
+    }
+    @media screen and (min-width:1000px){
+        width: 50%;
+        margin:-1em 25% 0em 25%;
+    }
+  }
+
+
+.overlay.shown {
+  opacity: 1;
+}
