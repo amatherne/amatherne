@@ -6,10 +6,10 @@ categories: project
 img: /img/portfolio/strangebrew/home-lg.png
 ---
 
-<fig class="marginnote"><a data-overlay-trigger="current" href="#!"><img src="/img/portfolio/strangebrew/current-sm.png"><figcaption>Current View Of StrangeBrewAustin.com</figcaption></a></fig>
+<fig class="marginnote"><a data-overlay-trigger="current" href="#!"><img src="/img/portfolio/strangebrew/current-sm.png" /><figcaption>Current View Of StrangeBrewAustin.com</figcaption></a></fig>
 
 <div class="overlay" id="current">
-    <img class="modal" src="/img/portfolio/strangebrew/current-lg.png">
+    <img class="modal" src="/img/portfolio/strangebrew/current-lg.png" />
     <span class="modal">Current View Of StrangeBrewAustin.com</span>
 </div>
 <h2>Quick Bio</h2>
