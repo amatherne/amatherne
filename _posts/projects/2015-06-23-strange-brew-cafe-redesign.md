@@ -27,7 +27,7 @@ The current site they were using was visually overbearing and had little in the 
 
 I examined the site nav in detail in order to try to make sense of what I was going to be working with. I felt that my best course of action was to take a step back and list all of the content they want available with no order. Once I'd done that I grouped the content into categories. When the content was all organized(ish) I still noticed some irregularities. 
 <BR><BR>
-<fig class="marginnote"><a data-overlay-trigger="breakingdown" href="#!"><img src="/img/portfolio/strangebrew/links-sm.jpg"></a><figcaption>Breaking down the link setup and Site-map.</figcaption></fig>
+<fig class="marginnote"><a data-overlay-trigger="breakingdown" href="#!"><img src="/img/portfolio/strangebrew/links-lg.jpg"></a><figcaption>Breaking down the link setup and Site-map.</figcaption></fig>
 
 <div class="overlay" id="breakingdown">
     <img class="modal" src="/img/portfolio/strangebrew/links-lg.jpg">
