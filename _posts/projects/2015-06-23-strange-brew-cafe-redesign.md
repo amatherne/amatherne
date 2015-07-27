@@ -14,19 +14,19 @@ img: /img/portfolio/strangebrew/home-lg.png
 </div>
 <h2>Quick Bio</h2>
 Strange Brew is a cafe located in South Austin off Manchaca Rd. It's known locally for being open 24 hours a day and offering a wide range of musical acts on their Lounge Stage next door. They are big supporters of local artists and other local businesses.
-<BR><BR>
+
 <h2>What I did</h2>
 
 My redesign of Strange Brew's website had a single basic goal:
-<BR><BR>
+
 <span class="clarity">Clarity.</span>
-<BR><BR>
+
 I wanted to find a way to take all of the great content and culture surrounding the establishment and make it more streamlined and user accessible.
 The current site they were using was visually overbearing and had little in the way of heirarchy. The mapping and placement of the navigation was also rather confusing. Links, in some cases, appeared to be placed at random. 
-<BR><BR>
+
 
 I examined the site nav in detail in order to try to make sense of what I was going to be working with. I felt that my best course of action was to take a step back and list all of the content they want available with no order. Once I'd done that I grouped the content into categories. When the content was all organized(ish) I still noticed some irregularities. 
-<BR><BR>
+
 <fig class="marginnote"><a data-overlay-trigger="breakingdown" href="#!"><img src="/img/portfolio/strangebrew/links-lg.jpg"></a><figcaption>Breaking down the link setup and Site-map.</figcaption></fig>
 
 <div class="overlay" id="breakingdown">
@@ -34,7 +34,7 @@ I examined the site nav in detail in order to try to make sense of what I was go
     <span class="modal">Breaking down the link setup and Site-map.</span>
 </div>
 Some items were very similar to others in my list; often identical. My next step was to condense as much of the material as possible. Some pages were combined. Some links were nested. And some content I decided was probably unnecissary in the first place. I wanted to be careful, though, about what items we did away with. 
-<BR><BR>
+
 <fig class="marginnote"><a data-overlay-trigger="clarity" href="#!"><img src="/img/portfolio/strangebrew/links2-sm.jpg"></a><figcaption>Bringing in some Clarity and Hierarchy</figcaption></fig>
 
 <div class="overlay" id="clarity">
@@ -42,7 +42,7 @@ Some items were very similar to others in my list; often identical. My next step
     <span class="modal">Bringing in some Clarity and Hierarchy</span>
 </div>
 The Clarity I was aiming for would decrease the amount of content clutter on the pages, add more whitespace to relieve the strain of viewing, and make the site nav as intuitive as possible. Accomplishing these goals could allow for better promotions of events, food deals, and the basic culture of the shop. 
-<BR><BR>
+
 <fig class="marginnote"><a data-overlay-trigger="wordlist" href="#!"><img src="/img/portfolio/strangebrew/wordlist-sm.jpg"></a><figcaption>An initial wordlist breaking off of "cafe"</figcaption></fig>
 
 <div class="overlay" id="wordlist">
@@ -52,7 +52,7 @@ The Clarity I was aiming for would decrease the amount of content clutter on the
 The last step before starting on design and layout was a word list to help me get a jumpstart on the creative process. I'm still learning how to open my mind to linear thinking in design, but i was able to pull out some good starts for ideas and directions to go.
 
 
-<BR><BR>
+
 <h2>Sketching</h2>
 
 <fig class="marginnote"><a data-overlay-trigger="sketch1" href="#!"><img src="/img/portfolio/strangebrew/sketch1-sm.jpg"></a><figcaption>A Beginning to a new Menu.</figcaption></fig>
