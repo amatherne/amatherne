@@ -6,10 +6,10 @@ categories: project
 img: /img/portfolio/strangebrew/home-lg.png
 ---
 
-<fig class="marginnote"><a data-overlay-trigger="current" href="#!"><img src="/img/portfolio/strangebrew/current-sm.png" /><figcaption>Current View Of StrangeBrewAustin.com</figcaption></a></fig>
+<fig class="marginnote"><a data-overlay-trigger="current" href="#!"><img src="/img/portfolio/strangebrew/current-sm.png"><figcaption>Current View Of StrangeBrewAustin.com</figcaption></a></fig>
 
 <div class="overlay" id="current">
-    <img class="modal" src="/img/portfolio/strangebrew/current-lg.png" />
+    <img class="modal" src="/img/portfolio/strangebrew/current-lg.png">
     <span class="modal">Current View Of StrangeBrewAustin.com</span>
 </div>
 <h2>Quick Bio</h2>
@@ -35,7 +35,7 @@ I examined the site nav in detail in order to try to make sense of what I was go
 </div>
 Some items were very similar to others in my list; often identical. My next step was to condense as much of the material as possible. Some pages were combined. Some links were nested. And some content I decided was probably unnecissary in the first place. I wanted to be careful, though, about what items we did away with. 
 <BR><BR>
-<fig class="marginnote"><a data-overlay-trigger="links-2" href="#!"><img src="/img/portfolio/strangebrew/links2-sm.jpg"><figcaption>Bringing in some Clarity and Hierarchy</figcaption></a></fig>
+<fig class="marginnote"><a data-overlay-trigger="links-2" href="#!"><img src="/img/portfolio/strangebrew/links2-sm.jpg">Bringing in some Clarity and Hierarchy</a></fig>
 
 <div class="overlay" id="links-2">
     <img class="modal" src="/img/portfolio/strangebrew/links2-lg.jpg">
