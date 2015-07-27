@@ -6,7 +6,7 @@ categories: project
 img: /img/portfolio/strangebrew/home-lg.png
 ---
 
-<fig class="marginnote"><a data-overlay-trigger="current" href="#!"><img src="/img/portfolio/strangebrew/current-sm.png"><figcaption>Current View Of StrangeBrewAustin.com</figcaption></a></fig>
+<fig class="marginnote"><a data-overlay-trigger="current" href="#!"><img src="/img/portfolio/strangebrew/current-sm.png"></a><figcaption>Current View Of StrangeBrewAustin.com</figcaption></fig>
 
 <div class="overlay" id="current">
     <img class="modal" src="/img/portfolio/strangebrew/current-lg.png">
@@ -27,7 +27,7 @@ The current site they were using was visually overbearing and had little in the 
 
 I examined the site nav in detail in order to try to make sense of what I was going to be working with. I felt that my best course of action was to take a step back and list all of the content they want available with no order. Once I'd done that I grouped the content into categories. When the content was all organized(ish) I still noticed some irregularities. 
 <BR><BR>
-<fig class="marginnote"><a data-overlay-trigger="links-1" href="#!"><img src="/img/portfolio/strangebrew/links-sm.jpg"><figcaption>Breaking down the link setup and Site-map.</figcaption></a></fig>
+<fig class="marginnote"><a data-overlay-trigger="links-1" href="#!"><img src="/img/portfolio/strangebrew/links-sm.jpg"></a><figcaption>Breaking down the link setup and Site-map.</figcaption></fig>
 
 <div class="overlay" id="links-1">
     <img class="modal" src="/img/portfolio/strangebrew/links-lg.jpg">
@@ -35,7 +35,7 @@ I examined the site nav in detail in order to try to make sense of what I was go
 </div>
 Some items were very similar to others in my list; often identical. My next step was to condense as much of the material as possible. Some pages were combined. Some links were nested. And some content I decided was probably unnecissary in the first place. I wanted to be careful, though, about what items we did away with. 
 <BR><BR>
-<fig class="marginnote"><a data-overlay-trigger="links-2" href="#!"><img src="/img/portfolio/strangebrew/links2-sm.jpg">Bringing in some Clarity and Hierarchy</a></fig>
+<fig class="marginnote"><a data-overlay-trigger="links-2" href="#!"><img src="/img/portfolio/strangebrew/links2-sm.jpg"></a><figcaption>Bringing in some Clarity and Hierarchy</figcaption></fig>
 
 <div class="overlay" id="links-2">
     <img class="modal" src="/img/portfolio/strangebrew/links2-lg.jpg">
@@ -43,7 +43,7 @@ Some items were very similar to others in my list; often identical. My next step
 </div>
 The Clarity I was aiming for would decrease the amount of content clutter on the pages, add more whitespace to relieve the strain of viewing, and make the site nav as intuitive as possible. Accomplishing these goals could allow for better promotions of events, food deals, and the basic culture of the shop. 
 <BR><BR>
-<fig class="marginnote"><a data-overlay-trigger="wordlist" href="#!"><img src="/img/portfolio/strangebrew/wordlist-sm.jpg"><figcaption>An initial wordlist breaking off of "cafe"</figcaption></a></fig>
+<fig class="marginnote"><a data-overlay-trigger="wordlist" href="#!"><img src="/img/portfolio/strangebrew/wordlist-sm.jpg"></a><figcaption>An initial wordlist breaking off of "cafe"</figcaption></fig>
 
 <div class="overlay" id="wordlist">
     <img class="modal" src="/img/portfolio/strangebrew/wordlist-lg.jpg">
