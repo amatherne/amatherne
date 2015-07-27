@@ -43,9 +43,9 @@ The current site they were using was visually overbearing and had little in the 
 </div>
 
 I examined the site nav in detail in order to try to make sense of what I was going to be working with. I felt that my best course of action was to take a step back and list all of the content they want available with no order. Once I'd done that I grouped the content into categories. When the content was all organized(ish) I still noticed some irregularities. 
-<fig class="marginnote"><a data-overlay-trigger="clarity" href="#!"><img src="/img/portfolio/strangebrew/links2-sm.jpg"><figcaption>Bringing in some Clarity and Hierarchy</figcaption></a></fig>
+<fig class="marginnote"><a data-overlay-trigger="heirarchy" href="#!"><img src="/img/portfolio/strangebrew/links2-sm.jpg"><figcaption>Bringing in some Clarity and Hierarchy</figcaption></a></fig>
 
-<div class="overlay" id="clarity">
+<div class="overlay" id="hierarachy">
     <img class="modal" src="/img/portfolio/strangebrew/links2-lg.jpg">
     <span class="modal">Bringing in some Clarity and Hierarchy</span>
 </div>
