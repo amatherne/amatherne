@@ -129,10 +129,15 @@ I landed on a color scheme based heavily on espresso tones. The dark and almost 
 
 <style type="text/css">
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,700|Cabin+Sketch:700|Marck+Script);
+.project-post {
+
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+}
 .typo {
     clear: right;
-    width: 60%;
-    /*margin: 1.9em 10%;*/
+    width: 80%;
+    margin: 1.9em 10%;
 }
 .ex-head {
     font-size: 70px;
