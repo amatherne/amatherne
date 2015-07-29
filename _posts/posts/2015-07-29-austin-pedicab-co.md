@@ -1,10 +1,13 @@
 ---
-layout: project-post
+layout: post
 title:  "Austin Pedicab Co."
 date:   2015-07-29 09:14:44
-categories: project
+categories: post
 img: 
 ---
+
+This is a Proposal for the Austin Pedicab Company.
+<!-- more! -->
 
 # Background on the Austin Pedicab Co.
 
